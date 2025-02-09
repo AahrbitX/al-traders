@@ -59,7 +59,9 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
           )}
         </div>
       </div>
-      <article className="test-section my-6">Review and Comments</article>
+      <article className="container h-[20rem] my-6">
+        <h2 className="text-left">Review and Comments</h2>
+      </article>
     </>
   );
 }

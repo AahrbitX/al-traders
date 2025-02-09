@@ -1,10 +1,10 @@
-import { productType } from "./types/product";
+import { ProductType } from "./types/product";
 
-export const products: productType[] = [
+export const products: ProductType[] = [
   // Company manufactured products
   {
     id: "own-1",
-    name: "Premium Handcrafted Coffee Blend",
+    name: "Handcrafted Coffee Blend",
     price: [
       { id: 1, price: "12.99", size: "250", unit: "g" },
       { id: 2, price: "24.99", size: "500", unit: "g" },

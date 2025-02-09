@@ -4,9 +4,9 @@ import React from "react";
 
 function BrandProductsSection() {
   return (
-    <div className="container">
+    <div className="container my-8">
       <h2>Our Brand&apos;s Products</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="flex flex-wrap gap-6 justify-center">
         {products
           .filter((i) => i.isOwnProduct)
           .map((product) => (

@@ -1,19 +1,25 @@
-import React from "react";
+"use client";
+
+import React, { Suspense } from "react";
 import ProductCard from "@/components/custom/product-card";
-import { products } from "@/static/product";
+import { useStore } from "../context";
 
 function StoreProductsSection() {
+  const { products } = useStore();
+
   return (
     <div className="container">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-            isOwnProduct={product.isOwnProduct}
-          />
-        ))}
-      </div>
+      <Suspense fallback={<p>Loading...</p>}>
+        <div className="flex flex-wrap gap-6 justify-center">
+          {products.map((product) => (
+            <ProductCard
+              key={product.id}
+              product={product}
+              isOwnProduct={product.isOwnProduct}
+            />
+          ))}
+        </div>
+      </Suspense>
     </div>
   );
 }

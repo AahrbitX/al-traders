@@ -5,7 +5,6 @@ import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import {
-  SheetDescription,
   Sheet,
   SheetContent,
   SheetHeader,
@@ -54,9 +53,8 @@ export default function Navbar() {
               <SheetContent side="left">
                 <SheetHeader>
                   <SheetTitle>
-                    <Logo logoText="EcomX" />
+                    <Logo logoText="AL Traders" />
                   </SheetTitle>
-                  <SheetDescription>Navigation menu</SheetDescription>
                 </SheetHeader>
                 <nav className="flex flex-col h-full justify-between pb-10">
                   <div className="flex flex-col justify-between space-y-4 pt-10">

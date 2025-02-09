@@ -1,4 +1,4 @@
-export type productType = {
+export type ProductType = {
   id: string;
   name: string;
   price: productPriceType[];
