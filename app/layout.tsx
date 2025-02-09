@@ -7,7 +7,7 @@ import { Providers } from "./providers";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Medium Scale Enterprise",
+  title: "AL Traders",
   description: "Medium Scale Enterprise",
 };
 

@@ -42,7 +42,7 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
         </div>
         <div className=" flex flex-col items-startjustify-around gap-12 bg-muted rounded-2xl py-8 px-4">
           <div>
-            <h2 className="text-3xl text-primary font-semibold">
+            <h2 className="text-3xl text-foreground text-left font-semibold">
               {product.name}
             </h2>
           </div>
@@ -51,9 +51,7 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
 
           {product.images.length > 1 && (
             <div className="flex items-center gap-4">
-              <h3 className="text-lg text-primary font-semibold">
-                Select Color
-              </h3>
+              <h3 className="text-lg font-semibold">Select Color</h3>
               <ProductColorSelect
                 productColors={getProductColorsFromImages(product.images)}
               />

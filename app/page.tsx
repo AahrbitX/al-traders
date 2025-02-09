@@ -9,7 +9,7 @@ import ContactsSection from "./components/Contact";
 
 function IndexPage() {
   return (
-    <div className="mt-24 min-h-screen">
+    <div className="min-h-screen">
       <HeroSection />
       <AboutSection />
       <BrandSection />

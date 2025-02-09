@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ShoppingBasket } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Search } from "lucide-react";
 import React from "react";
 
 function StoreHeroSection() {
@@ -17,9 +18,14 @@ function StoreHeroSection() {
             exactly what you&apos;re looking for.
           </p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-4 ">
+          <Input
+            type="text"
+            className="w-[14rem]"
+            placeholder="Search Products..."
+          />
           <Button variant={"default"}>
-            <ShoppingBasket /> Shop Now
+            <Search /> Search
           </Button>
         </div>
       </div>

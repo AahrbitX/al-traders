@@ -4,7 +4,8 @@ import React from "react";
 
 function BrandProductsSection() {
   return (
-    <div className="test-section">
+    <div className="container">
+      <h2>Our Brand&apos;s Products</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products
           .filter((i) => i.isOwnProduct)

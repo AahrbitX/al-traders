@@ -1,24 +1,33 @@
 import React from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import HeaderImages from "@/app/components/Hero/header-images";
 
 function BrandHeroSection() {
   return (
-    <div className="w-full test-section py-16">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Our Brand Story
+    <div className="w-full container py-12">
+      <div className="grid grid-rows-[max-content_max-content-max-content] md:grid-rows-[max-content_auto] md:grid-cols-[1fr_0.8fr] h-full py-5 md:gap-y-10">
+        <div className="row-start-2 md:row-start-1 flex flex-col justify-center gap-4 lg:py-[100px] py-[60px]">
+          <h1 className="text-4xl text-balance md:text-5xl lg:text-6xl font-semibold font-dmsans text-center md:text-left">
+            Build your <span className="text-secondary">brand</span>, sell
+            online all in <span className="text-secondary">one place</span>
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover our unique brand identity and products. We take pride in
-            creating high-quality items that reflect our commitment to
-            excellence and innovation. Each product is carefully crafted to meet
-            the highest standards while staying true to our brand values.
+          <p className="text-muted-foreground text-balance">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            nesciunt corporis accusantium doloribus labore assumenda a dolor cum
+            reiciendis dolorem.
           </p>
+          <div className="flex items-center justify-center md:justify-start gap-5 mt-8">
+            <Button asChild className="">
+              <Link href="/about">About us</Link>
+            </Button>
+            <Button>
+              <Link href="/brand">Bulls Brand</Link>
+            </Button>
+          </div>
         </div>
-        <div className="flex justify-center">
-          <button className="px-6 py-3 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity">
-            Explore Our Products
-          </button>
+        <div className="row-start-1 flex items-center justify-center w-full h-full">
+          <HeaderImages img="bull" height={500} width={500} />
         </div>
       </div>
     </div>

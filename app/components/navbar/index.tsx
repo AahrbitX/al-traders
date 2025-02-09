@@ -29,10 +29,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-background z-50 border-b">
+    <header className="fixed top-0 w-full bg-background/30 backdrop-blur-xl z-50 border-b">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          <Logo logoText="MSE" />
+          <Logo logoText="AL Traders" />
           <nav className="hidden md:flex justify-center gap-6">
             {navItems.map((item) => (
               <NavLink key={item.title} title={item.title} href={item.href} />

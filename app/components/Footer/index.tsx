@@ -9,7 +9,7 @@ function FooterSection() {
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                MSE - AahrbitX
+                AL Traders
               </span>
             </Link>
             <p className="text-muted-foreground mt-4">
@@ -18,7 +18,7 @@ function FooterSection() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white text-left">
                 Resources
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -41,7 +41,7 @@ function FooterSection() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white">
+              <h2 className="mb-6 text-sm text-left  font-semibold uppercase dark:text-white">
                 Follow us
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -61,7 +61,7 @@ function FooterSection() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white">
+              <h2 className="mb-6 text-sm text-left  font-semibold uppercase dark:text-white">
                 Legal
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -83,9 +83,9 @@ function FooterSection() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2025{" "}
-            <a href="https://www.aahrbitx.in/" className="hover:underline">
-              AahrbitX&deg;
-            </a>
+            <Link href="/" className="hover:underline">
+              AL Traders
+            </Link>
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
