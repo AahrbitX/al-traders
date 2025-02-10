@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { productPriceType, productType } from "@/static/types/product";
+import { productPriceType, ProductType } from "@/static/types/product";
 import { useSearchParams } from "next/navigation";
 import React, { useCallback } from "react";
 
@@ -15,7 +15,7 @@ type ProductSizeButtonProps = {
 export default function ProductSizeButtons({
   product,
 }: {
-  product: productType;
+  product: ProductType;
 }) {
   const searchParams = useSearchParams();
 

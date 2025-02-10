@@ -1,42 +1,42 @@
 "use client";
 
-import React, { useRef } from "react";
-import { Search } from "lucide-react";
+import React, { useEffect } from "react";
+import { Trash } from "lucide-react";
 
 import { products } from "@/static/product";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useStore } from "../context";
+import { useStore } from "@/store/useStore";
 
 function StoreHeroSection() {
-  const { setProducts } = useStore();
+  const { filterText, setProducts, setFilterText } = useStore();
 
-  const productSearchTextRef = useRef<HTMLInputElement>(null);
-
-  const handleSearch = () => {
-    if (productSearchTextRef.current) {
-      const query = productSearchTextRef.current.value.toLowerCase();
-
-      const filteredProducts = products.filter((p) =>
-        p.name.toLowerCase().includes(query)
-      );
-
-      setProducts(filteredProducts);
+  useEffect(() => {
+    if (!filterText.trim()) {
+      setProducts(products);
+      return;
     }
-  };
+
+    const filteredProducts = products.filter((p) =>
+      p.name.toLowerCase().includes(filterText.toLowerCase())
+    );
+
+    setProducts(filteredProducts);
+  }, [filterText, setProducts]);
 
   return (
     <div className="w-full test-section mb-6">
       <div className="container px-4">
-        <div className="flex justify-center gap-4 ">
+        <div className="flex justify-center gap-4">
           <Input
             type="text"
-            ref={productSearchTextRef}
+            value={filterText}
+            onChange={(event) => setFilterText(event.target.value)}
             className="w-[14rem]"
             placeholder="Search Products..."
           />
-          <Button variant={"default"} onClick={handleSearch}>
-            <Search /> Search
+          <Button variant="default" onClick={() => setFilterText("")}>
+            <Trash /> Clear
           </Button>
         </div>
       </div>

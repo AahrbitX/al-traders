@@ -2,7 +2,7 @@
 
 import React, { Suspense } from "react";
 import ProductCard from "@/components/custom/product-card";
-import { useStore } from "../context";
+import { useStore } from "@/store/useStore";
 
 function StoreProductsSection() {
   const { products } = useStore();

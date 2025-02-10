@@ -3,12 +3,12 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <footer className="bg-primary text-primary-foreground pt-5 mt-10">
+    <footer className="bg-slate-800 text-primary-foreground pt-5 mt-10">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-primary">
                 AL Traders
               </span>
             </Link>
@@ -18,7 +18,7 @@ function FooterSection() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white text-left">
+              <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white  text-primary text-left">
                 Resources
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -41,7 +41,7 @@ function FooterSection() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm text-left  font-semibold uppercase dark:text-white">
+              <h2 className="mb-6 text-sm text-left  font-semibold uppercase text-primary dark:text-white">
                 Follow us
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -61,7 +61,7 @@ function FooterSection() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm text-left  font-semibold uppercase dark:text-white">
+              <h2 className="mb-6 text-sm text-left  font-semibold uppercase text-primary dark:text-white">
                 Legal
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -89,7 +89,10 @@ function FooterSection() {
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
-            <Link href="#" className="text-gray-500   dark:hover:text-white">
+            <Link
+              href="#"
+              className="text-gray-500   dark:hover:text-white hover:text-primary"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -105,7 +108,10 @@ function FooterSection() {
               </svg>
               <span className="sr-only">Facebook page</span>
             </Link>
-            <Link href="#" className="text-gray-500 dark:hover:text-white ms-5">
+            <Link
+              href="#"
+              className="text-gray-500 hover:text-primary dark:hover:text-white ms-5"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -119,7 +125,7 @@ function FooterSection() {
             </Link>
             <Link
               href="#"
-              className="text-gray-500   dark:hover:text-white ms-5"
+              className="text-gray-500  hover:text-primary  dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"
@@ -138,7 +144,7 @@ function FooterSection() {
             </Link>
             <Link
               href="#"
-              className="text-gray-500   dark:hover:text-white ms-5"
+              className="text-gray-500 hover:text-primary   dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"
@@ -157,7 +163,7 @@ function FooterSection() {
             </Link>
             <Link
               href="#"
-              className="text-gray-500   dark:hover:text-white ms-5"
+              className="text-gray-500  hover:text-primary  dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"

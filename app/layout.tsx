@@ -3,7 +3,6 @@ import "./globals.css";
 
 import { interVariable, dmsansVariable } from "./fonts";
 import Navbar from "./components/navbar";
-import { Providers } from "./providers";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
@@ -19,11 +18,9 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <body className={`${interVariable} ${dmsansVariable} antialiased`}>
-        <Providers>
-          <Navbar />
-          {children}
-          <Footer />
-        </Providers>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
