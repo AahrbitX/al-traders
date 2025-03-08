@@ -117,17 +117,14 @@ const DataBox = ({
       {children}
 
       {/* Overlay */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileHover={{ opacity: 1 }}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="absolute w-full h-full flex flex-col justify-end bg-black/60 p-5"
-      >
-        <h3 className="text-lg text-white font-semibold">{title}</h3>
-        <p className="text-sm flex items-center gap-2 text-white">
+      <div className="absolute w-full h-full flex flex-col justify-end group-hover:bg-black/60 p-5 transition-all duration-300 ">
+        <p className="text-lg group-hover:translate-y-0  translate-y-9  duration-500 text-secondary font-semibold">
+          {title}
+        </p>
+        <p className="text-sm translate-y-9 group-hover:translate-y-0 flex duration-500 items-center gap-2 text-white">
           Explore <MoveUpRight size={14} />
         </p>
-      </motion.div>
+      </div>
     </motion.div>
   );
 };

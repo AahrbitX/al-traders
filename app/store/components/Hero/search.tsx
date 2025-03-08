@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useStore } from "@/store/useStore";
 
-function StoreHeroSection() {
+function StoreSearchSection() {
   const { filterText, setProducts, setFilterText } = useStore();
 
   useEffect(() => {
@@ -44,4 +44,4 @@ function StoreHeroSection() {
   );
 }
 
-export default StoreHeroSection;
+export default StoreSearchSection;

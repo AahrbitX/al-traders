@@ -22,7 +22,7 @@ body {
     /* primary yellow color */
     --primary: #fed304;
     --primary-foreground: #000000;
-    /* seconday red color  */
+    /* secondary red color  */
     --secondary: 358, 86%, 52%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
@@ -55,7 +55,8 @@ body {
     min-height: 100vh;
   }
 
-  h2 {
+  h2,
+  .heading {
     @apply text-center font-dmsans text-3xl text-secondary font-semibold mb-4;
   }
 }

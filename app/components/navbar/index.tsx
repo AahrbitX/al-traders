@@ -21,7 +21,6 @@ const navItems = [
   { title: "About", href: "/about" },
   { title: "Brand", href: "/brand" },
   { title: "Store", href: "/store" },
-  { title: "Contact", href: "/#contact" },
 ];
 
 export default function Navbar() {
@@ -40,7 +39,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-4">
             <div className="hidden md:flex items-center space-x-3">
               <Button asChild>
-                <Link href="/signup">Sign Up</Link>
+                <Link href="/contact">Contact</Link>
               </Button>
             </div>
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -53,7 +52,7 @@ export default function Navbar() {
               <SheetContent side="left">
                 <SheetHeader>
                   <SheetTitle>
-                    <Logo logoText="AL Traders" />
+                    <Logo className="text-secondary" logoText="AL Traders" />
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col h-full justify-between pb-10">
@@ -71,8 +70,8 @@ export default function Navbar() {
                   </div>
                   <div className="flex flex-col justify-between space-y-4 pb-5">
                     <Button asChild>
-                      <Link href="/signup" onClick={() => setIsOpen(false)}>
-                        Sign Up
+                      <Link href="/contact" onClick={() => setIsOpen(false)}>
+                        Contact
                       </Link>
                     </Button>
                   </div>

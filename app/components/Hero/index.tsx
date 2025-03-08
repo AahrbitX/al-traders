@@ -3,20 +3,27 @@ import Illustrations from "./illustrations";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import HeaderImages from "./header-images";
+import { TextAnimate } from "@/components/custom/text-animate";
 
 function HeroSection() {
   return (
     <header className="mt-20 first-section container">
-      <div className="grid grid-rows-[max-content_max-content-max-content] md:grid-rows-[max-content_auto] md:grid-cols-[1fr_0.8fr] h-full py-5 md:gap-y-10">
-        <div className="row-start-2 md:row-start-1 flex flex-col justify-center gap-4 lg:py-[100px] py-[60px]">
-          <h1 className="text-4xl text-balance md:text-5xl lg:text-6xl font-semibold font-dmsans text-center md:text-left">
-            Build your <span className="text-secondary">brand</span>, sell
-            online all in <span className="text-secondary">one place</span>
-          </h1>
-          <p className="text-muted-foreground text-balance">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            nesciunt corporis accusantium doloribus labore assumenda a dolor cum
-            reiciendis dolorem.
+      <div className="grid grid-rows-[max-content_max-content] md:grid-rows-[max-content_auto] md:grid-cols-[1fr_0.7fr] h-full py-5 md:gap-y-10">
+        <div className="row-start-2 md:row-start-1 flex flex-col justify-center gap-4 lg:py-[100px] md:py-[60px] py-[40px]">
+          <TextAnimate
+            animation="blurInUp"
+            as="h1"
+            startOnView={false}
+            duration={0.9}
+            highlightText={["Tools,", "Work", "Bulls", "Brand!"]}
+            className="text-4xl text-balance md:text-5xl font-semibold font-dmsans text-center md:text-left"
+          >
+            Stronger Tools, Smarter Work - Elevate Your Craft with Bulls Brand!
+          </TextAnimate>
+          <p className="text-muted-foreground text-balance text-center md:text-left">
+            We offer durable manual tools, machine tool accessories, and
+            hardware designed for precision and reliability. Explore our
+            collection for industrial and home use.
           </p>
           <div className="flex items-center justify-center md:justify-start gap-5 mt-8">
             <Button asChild className="">

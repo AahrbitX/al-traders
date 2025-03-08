@@ -1,5 +1,5 @@
 import React from "react";
-import StoreHeroSection from "./Hero";
+import StoreHeroSection from "./components/Hero";
 import StoreProductsSection from "./products";
 
 function StorePage() {

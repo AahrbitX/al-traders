@@ -11,7 +11,7 @@ function HeaderImages({
   width: number | `${number}` | undefined;
 }) {
   return (
-    <div className="p-10 md:p-0">
+    <div className="p-3 md:p-6 lg:p-10">
       {img === "bull" ? (
         <Image
           src="/bulls.svg"
