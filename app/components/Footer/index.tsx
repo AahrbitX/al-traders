@@ -3,7 +3,7 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <footer className="bg-slate-800 text-primary-foreground pt-5 mt-10">
+    <footer className="bg-slate-800  pt-5 mt-10">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -12,16 +12,14 @@ function FooterSection() {
                 AL Traders
               </span>
             </Link>
-            <p className="text-muted-foreground mt-4">
-              A Medium Scale Enterprise Template
-            </p>
+            <p className="text-gray-400 mt-4">A Medium Scale Enterprise</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white  text-primary text-left">
                 Resources
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <Link
                     href="https://www.aahrbitx.in/"
@@ -44,7 +42,7 @@ function FooterSection() {
               <h2 className="mb-6 text-sm text-left  font-semibold uppercase text-primary dark:text-white">
                 Follow us
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <Link
                     href="https://github.com/AahrbitX"
@@ -64,7 +62,7 @@ function FooterSection() {
               <h2 className="mb-6 text-sm text-left  font-semibold uppercase text-primary dark:text-white">
                 Legal
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <Link href="#" className="hover:underline">
                     Privacy Policy
@@ -81,7 +79,7 @@ function FooterSection() {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span className="text-sm text-gray-400 sm:text-center dark:text-gray-400">
             © 2025{" "}
             <Link href="/" className="hover:underline">
               AL Traders
@@ -91,7 +89,7 @@ function FooterSection() {
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <Link
               href="#"
-              className="text-gray-500   dark:hover:text-white hover:text-primary"
+              className="text-gray-400   dark:hover:text-white hover:text-primary"
             >
               <svg
                 className="w-4 h-4"
@@ -110,7 +108,7 @@ function FooterSection() {
             </Link>
             <Link
               href="#"
-              className="text-gray-500 hover:text-primary dark:hover:text-white ms-5"
+              className="text-gray-400 hover:text-primary dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"
@@ -125,7 +123,7 @@ function FooterSection() {
             </Link>
             <Link
               href="#"
-              className="text-gray-500  hover:text-primary  dark:hover:text-white ms-5"
+              className="text-gray-400  hover:text-primary  dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"
@@ -144,7 +142,7 @@ function FooterSection() {
             </Link>
             <Link
               href="#"
-              className="text-gray-500 hover:text-primary   dark:hover:text-white ms-5"
+              className="text-gray-400 hover:text-primary   dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"
@@ -163,7 +161,7 @@ function FooterSection() {
             </Link>
             <Link
               href="#"
-              className="text-gray-500  hover:text-primary  dark:hover:text-white ms-5"
+              className="text-gray-400  hover:text-primary  dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"

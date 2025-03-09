@@ -8,7 +8,7 @@ function BrandHeroSection() {
   return (
     <div className="w-full container py-12">
       <div className="grid grid-rows-[max-content_max-content-max-content] md:grid-rows-[max-content_auto] md:grid-cols-[1fr_0.8fr] h-full py-5 md:gap-y-10">
-        <div className="row-start-2 md:row-start-1 flex flex-col justify-center gap-4 lg:py-[100px] py-[60px]">
+        <div className="row-start-2 md:row-start-1 flex flex-col justify-center gap-4 lg:py-[80px] py-[60px]">
           <TextAnimate
             as="h1"
             startOnView={false}
@@ -18,7 +18,7 @@ function BrandHeroSection() {
           >
             Tools That Work as Hard as You Do - Bulls Brand Quality!
           </TextAnimate>
-          <p className="text-muted-foreground text-balance">
+          <p className="text-muted-foreground text-balance text-center lg:text-left">
             We provide strong and long-lasting tools, accessories, and hardware
             for everyday tasks and professional use. Ideal for both home
             projects and industrial work.

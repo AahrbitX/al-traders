@@ -1,5 +1,8 @@
-import Image from "next/image";
+"use client";
+
 import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 function HeaderImages({
   img,
@@ -11,23 +14,19 @@ function HeaderImages({
   width: number | `${number}` | undefined;
 }) {
   return (
-    <div className="p-3 md:p-6 lg:p-10">
-      {img === "bull" ? (
-        <Image
-          src="/bulls.svg"
-          alt="bulls image"
-          height={height}
-          width={width}
-        />
-      ) : (
-        <Image
-          src="/al-traders.svg"
-          alt="bulls image"
-          height={height}
-          width={width}
-        />
-      )}
-    </div>
+    <motion.div
+      className="p-3 md:p-6 lg:p-10"
+      initial={{ opacity: 0, y: 20, scale: 0.9 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
+      <Image
+        src={img === "bull" ? "/bulls.svg" : "/al-traders.svg"}
+        alt="bulls image"
+        height={height}
+        width={width}
+      />
+    </motion.div>
   );
 }
 

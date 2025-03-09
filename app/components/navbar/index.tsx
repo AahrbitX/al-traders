@@ -15,6 +15,7 @@ import {
 import Logo from "@/components/custom/Logo";
 import { MenuIcon } from "lucide-react";
 import NavLink from "./link";
+import GetCatalogueBlock from "./featured-blocs";
 
 const navItems = [
   { title: "Home", href: "/" },
@@ -52,7 +53,10 @@ export default function Navbar() {
               <SheetContent side="left">
                 <SheetHeader>
                   <SheetTitle>
-                    <Logo className="text-secondary" logoText="AL Traders" />
+                    <Logo
+                      className="text-secondary text-3xl"
+                      logoText="AL Traders"
+                    />
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col h-full justify-between pb-10">
@@ -61,12 +65,18 @@ export default function Navbar() {
                       <Link
                         key={item.title}
                         href={item.href}
-                        className="font-medium transition-colors hover:text-primary"
+                        className="font-medium transition-colors hover:text-primary text-xl py-2 border-b border-slate-500"
                         onClick={() => setIsOpen(false)}
                       >
                         {item.title}
                       </Link>
                     ))}
+                  </div>
+                  <div
+                    id="featured"
+                    className="grow py-4 flex flex-col justify-end"
+                  >
+                    <GetCatalogueBlock />
                   </div>
                   <div className="flex flex-col justify-between space-y-4 pb-5">
                     <Button asChild>

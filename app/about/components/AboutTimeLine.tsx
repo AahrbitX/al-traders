@@ -26,7 +26,7 @@ function AboutTimeLine() {
   return (
     <section className="bg-muted py-12 my-14">
       <div className="container">
-        <dl className="flex flex-wrap gap-4 justify-around">
+        <dl className="flex flex-col md:flex-row gap-8 justify-around">
           {TimeLine.map((t) => (
             <TimeCard key={t.year} {...t} />
           ))}
