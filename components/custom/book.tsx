@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ReactNode } from "react";
 
 const radiusMap = {
@@ -44,6 +45,10 @@ interface BookProps {
   isStatic?: boolean;
   className?: string;
   children: ReactNode;
+  cover?: {
+    src: string;
+    alt: string;
+  };
 }
 
 export const ModernBookCover = ({
@@ -53,6 +58,7 @@ export const ModernBookCover = ({
   isStatic = false,
   className = "",
   children,
+  cover,
 }: BookProps) => {
   const gradient = colorMap[color] || colorMap.zinc;
 
@@ -79,6 +85,17 @@ export const ModernBookCover = ({
             boxShadow: "5px 5px 20px var(--shadowColor)",
           }}
         >
+          {/* Custom book logo */}
+          {cover && (
+            <Image
+              className="absolute top-[20%] left-[20%]"
+              src={cover.src}
+              alt={cover.alt}
+              height={100}
+              width={100}
+            />
+          )}
+
           <div
             className="absolute left-0 top-0 h-full"
             style={{

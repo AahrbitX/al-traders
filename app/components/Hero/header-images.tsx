@@ -21,7 +21,7 @@ function HeaderImages({
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <Image
-        src={img === "bull" ? "/bulls.svg" : "/al-traders.svg"}
+        src={img === "bull" ? "/bulls.png" : "/al-traders.png"}
         alt="bulls image"
         height={height}
         width={width}

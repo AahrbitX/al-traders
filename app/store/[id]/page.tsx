@@ -6,6 +6,7 @@ import ProductImage from "../components/product-image";
 import ProductColorSelect from "../components/product-color-select";
 import ProductSizeButtons from "../components/product-size-button";
 import { getProductColorsFromImages } from "@/lib/getProductColorsFromImages";
+import ContactsSection from "@/app/components/Contact";
 
 interface ProductIdPageProps {
   params: Promise<{ id: string }>;
@@ -59,9 +60,10 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
           )}
         </div>
       </div>
-      <article className="container h-[20rem] my-6">
+      <article className="container h-[30rem] my-6">
         <h2 className="text-left">Review and Comments</h2>
       </article>
+      <ContactsSection />
     </>
   );
 }

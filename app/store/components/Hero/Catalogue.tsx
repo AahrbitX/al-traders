@@ -15,6 +15,7 @@ function Catalogue() {
         color="red"
         isStatic
         className="scale-75 md:scale-90 lg:scale-100"
+        cover={{ src: "/al-traders.png", alt: "Al-traders book cover image" }}
       >
         <BookHeader>
           <Book size={20} />
@@ -27,6 +28,7 @@ function Catalogue() {
         color="slate"
         isStatic
         className="scale-75 md:scale-90 lg:scale-100"
+        cover={{ alt: "Bulls brand cover image", src: "/bulls.png" }}
       >
         <BookHeader>
           <Book size={20} />

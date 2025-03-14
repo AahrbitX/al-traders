@@ -4,6 +4,7 @@ import BrandHeroSection from "./components/Hero";
 import BrandAboutSection from "./components/About";
 import BrandProductsSection from "./components/products";
 import BrandReviewsSection from "./components/Reviews";
+import ContactsSection from "../components/Contact";
 
 export const metadata: Metadata = {
   title: "Bulls Brand",
@@ -18,6 +19,7 @@ function BrandPage() {
       <BrandAboutSection />
       <BrandProductsSection />
       <BrandReviewsSection />
+      <ContactsSection />
     </div>
   );
 }
