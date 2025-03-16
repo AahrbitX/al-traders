@@ -1,21 +1,17 @@
 export type ProductType = {
   id: string;
   name: string;
-  price: productPriceType[];
-  images: ProductImagesType;
+  prices: {
+    currency: string;
+    amount: number;
+  }[];
+  images: string;
+  metaImages: string;
   description: string;
+  metaDescriptions: string;
   isOwnProduct: boolean;
   category: string;
   inStock: boolean;
+  variants: string[];
+  sizes: string[];
 };
-
-export type productPriceType = {
-  id: number;
-  price: string;
-  size: string;
-  unit?: string;
-};
-
-export type ProductImagesType = {
-  [key: string]: string;
-}[];

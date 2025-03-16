@@ -9,12 +9,9 @@ function BrandProductsSection() {
       <div className="flex flex-wrap gap-6 justify-center">
         {products
           .filter((i) => i.isOwnProduct)
+          .slice(0, 4)
           .map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-              isOwnProduct={product.isOwnProduct}
-            />
+            <ProductCard key={product.id} product={product} />
           ))}
       </div>
     </div>

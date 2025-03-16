@@ -9,7 +9,7 @@ function StatsSection() {
       title: "Customers",
     },
     {
-      data: 10000,
+      data: 100,
       suffix: "K+",
       title: "Sales",
     },

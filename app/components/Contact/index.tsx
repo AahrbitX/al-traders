@@ -12,8 +12,8 @@ function ContactsSection() {
         {/* Content */}
         <h2 className="text-2xl md:text-3xl relative">Get in Touch with Us</h2>
         <p className="text-sm md:text-base text-gray-700 max-w-lg mt-3 relative">
-          Have a question or need assistance? We're here to help! Reach out to
-          us for business inquiries, support, or collaborations.
+          Have a question or need assistance? We&apos;re here to help! Reach out
+          to us for business inquiries, support, or collaborations.
         </p>
         <Link
           className="mt-5 px-6 py-3 bg-primary text-black text-sm md:text-base rounded-lg font-medium inline-block relative"

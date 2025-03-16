@@ -7,6 +7,11 @@ body {
   @apply bg-background text-foreground;
 }
 
+html body[data-scroll-locked] {
+  overflow: visible !important;
+  margin-right: 0 !important;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -54,5 +59,9 @@ body {
   h2,
   .heading {
     @apply text-center font-dmsans text-3xl text-secondary font-semibold mb-4;
+  }
+
+  .product-card {
+    @apply rounded-lg w-[19rem] h-auto relative border p-4 flex flex-col gap-3 shadow-md hover:shadow-inner mx-auto;
   }
 }

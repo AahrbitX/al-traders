@@ -4,15 +4,18 @@ import React from "react";
 
 function AboutHeader() {
   return (
-    <section className="container relative">
-      <TextAnimate
-        as="h1"
-        startOnView={false}
-        animation="slideDown"
-        className="absolute text-5xl md:text-6xl lg:text-7xl font-bold font-dmsans lg:top-6 lg:left-10 [text-shadow:20px_12px_60px_#fff] max-w-[30rem]"
-      >
-        AL Traders &amp; Bulls Brand
-      </TextAnimate>
+    <section className="container relative grid grid-rows-[auto_auto] grid-cols-1 md:grid-rows-1 md:grid-cols-[0.5fr_1fr] max-w-7xl">
+      <div>
+        <TextAnimate
+          as="h1"
+          startOnView={false}
+          animation="slideDown"
+          highlightText={["&"]}
+          className="text-5xl md:text-6xl lg:text-7xl font-bold font-dmsans [text-shadow:20px_12px_60px_#fff] max-w-[30rem] text-start sticky top-20 h-fit"
+        >
+          AL Traders &amp; Bulls Brand
+        </TextAnimate>
+      </div>
       <div className="flex flex-col lg:pt-0 pt-20 items-end justify-end max-w-[68rem]">
         <div className="lg:max-w-3xl ">
           <Image

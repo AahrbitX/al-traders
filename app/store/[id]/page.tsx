@@ -2,11 +2,10 @@ import React from "react";
 import { notFound } from "next/navigation";
 
 import { products } from "@/static/product";
-import ProductImage from "../components/product-image";
-import ProductColorSelect from "../components/product-color-select";
 import ProductSizeButtons from "../components/product-size-button";
-import { getProductColorsFromImages } from "@/lib/getProductColorsFromImages";
 import ContactsSection from "@/app/components/Contact";
+import Image from "next/image";
+import ProductCarousel from "./components/Carousel";
 
 interface ProductIdPageProps {
   params: Promise<{ id: string }>;
@@ -23,6 +22,7 @@ export async function generateMetadata({ params }: ProductIdPageProps) {
   const product = products.find((product) => product.id === id);
   return {
     title: product?.name + " | MSE" || "Product not found",
+    description: product?.metaDescriptions,
   };
 }
 
@@ -37,32 +37,42 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
 
   return (
     <>
-      <div className="mt-12 h-max grid md:grid-cols-[0.7fr_1fr] md:grid-rows-1 grid-rows-2 gap-x-6 gap-y-4 pt-12 container px-2">
-        <div className="bg-[#f2f2f2] flex items-center justify-center py-8 px-3 rounded-2xl">
-          <ProductImage props={product.images} />
+      <div className="mt-8 h-max grid md:grid-cols-[0.7fr_1fr] md:grid-rows-1 grid-rows-2 gap-x-6 gap-y-4 pt-12 container px-2">
+        <div className=" flex items-center justify-center py-8 px-3 rounded-2xl bg-gradient-to-br from-amber-100 to-red-100">
+          <Image
+            priority
+            src={"https://prd.place/400?id=45"}
+            alt={`Product image`}
+            width={250}
+            height={300}
+          />
         </div>
         <div className=" flex flex-col items-startjustify-around gap-12 bg-muted rounded-2xl py-8 px-4">
           <div>
-            <h2 className="text-3xl text-foreground text-left font-semibold">
+            <h2 className="text-3xl text-foreground text-left font-semibold mb-2">
               {product.name}
             </h2>
+            <p title={product.description} className=" text-muted-foreground">
+              {product.description}
+            </p>
           </div>
-
-          <ProductSizeButtons product={product} />
-
-          {product.images.length > 1 && (
-            <div className="flex items-center gap-4">
-              <h3 className="text-lg font-semibold">Select Color</h3>
-              <ProductColorSelect
-                productColors={getProductColorsFromImages(product.images)}
-              />
-            </div>
-          )}
+          <div className="">
+            <ProductSizeButtons
+              prices={product.prices}
+              sizes={product.sizes}
+              variants={product.variants}
+            />
+          </div>
         </div>
       </div>
-      <article className="container h-[30rem] my-6">
-        <h2 className="text-left">Review and Comments</h2>
-      </article>
+      <div className="container min-h-[20rem] my-6">
+        <h2 className="text-left">Similar Products</h2>
+        <ProductCarousel category={product.category} />
+      </div>
+      <div className="container min-h-[20rem] my-6">
+        <h2 className="text-left">Other Products</h2>
+        <ProductCarousel isSameType={false} category={product.category} />
+      </div>
       <ContactsSection />
     </>
   );

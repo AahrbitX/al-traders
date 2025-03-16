@@ -118,10 +118,10 @@ const DataBox = ({
 
       {/* Overlay */}
       <div className="absolute w-full h-full flex flex-col justify-end group-hover:bg-black/60 p-5 transition-all duration-300 items-start">
-        <p className="text-lg group-hover:translate-y-0 translate-y-9  duration-500 text-secondary font-semibold bg-white px-2 py-1 rounded-full ">
+        <p className="md:text-lg group-hover:translate-y-0 translate-y-9  duration-500 text-secondary font-semibold bg-white px-2 py-1 rounded-full text-xs">
           {title}
         </p>
-        <p className="text-sm translate-y-9 group-hover:translate-y-0 flex duration-500 items-center gap-2 text-white">
+        <p className="text-sm translate-y-9 group-hover:translate-y-0 flex duration-500 items-center gap-2 text-white px-2">
           Explore <MoveUpRight size={14} />
         </p>
       </div>
