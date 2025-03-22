@@ -1,7 +1,6 @@
 import React from "react";
 
 import HeroSection from "./components/Hero";
-import AboutSection from "./components/About";
 import StatsSection from "./components/Stats";
 import ProductsSection from "./components/products";
 import ContactsSection from "./components/Contact";
@@ -10,7 +9,6 @@ function IndexPage() {
   return (
     <div className="min-h-screen">
       <HeroSection />
-      <AboutSection />
       <StatsSection />
       <ProductsSection />
       <ContactsSection />

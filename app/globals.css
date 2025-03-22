@@ -62,6 +62,6 @@ html body[data-scroll-locked] {
   }
 
   .product-card {
-    @apply rounded-lg w-[19rem] h-auto relative border p-4 flex flex-col gap-3 shadow-md hover:shadow-inner mx-auto;
+    @apply rounded-lg w-[19rem] h-[28rem] relative border p-4 flex flex-col gap-3 shadow-md mx-auto;
   }
 }

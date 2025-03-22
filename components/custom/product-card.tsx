@@ -10,19 +10,16 @@ export default function ProductCard({ product }: ProductCardProps) {
   const price = product.prices[0].amount;
 
   return (
-    <Link href={`/store/${product.id}`}>
+    <Link href={`/store/${product.id}`} draggable="false">
       <div className="product-card">
-        <div className="flex-grow p-4 rounded-md bg-gradient-to-br from-amber-100 to-red-100 relative">
-          {/* {product.isOwnProduct && (
-          <span className="text-xs absolute top-3 left-3 bg-amber-300 px-3 py-2 rounded-full">
-            20% OFF
-          </span>
-        )} */}
+        <div className="flex-grow p-4 rounded-md bg-gradient-to-br from-amber-100 to-red-100 relative w-full h-[200px] flex justify-center items-center">
           <Image
-            src="https://prd.place/400?id=33"
-            alt="dummy"
+            className="object-contain"
+            src={product.images}
+            alt={product.name}
             width={250}
             height={200}
+            draggable="false"
           />
         </div>
 
@@ -39,7 +36,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           >
             {product.description}
           </p>
-          <div className="flex items-center justify-between ">
+          <div className="flex items-center justify-between">
             <p className="font-bold text-3xl text-secondary">&#8377;{price}</p>
             <Badge size={product.sizes.length} />
             <Badge color={product.variants.length} />

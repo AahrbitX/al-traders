@@ -3,38 +3,19 @@ import { ProductType } from "./types/product";
 export const products: ProductType[] = [
   {
     id: "1",
-    name: "Fevicol",
-    images: "https://placeholder.com/fevicol-50gm.jpg",
-    description: "Fevicol adhesive for multipurpose use.",
-    isOwnProduct: true,
-    category: "Adhesive Products",
-    inStock: true,
-    metaDescriptions:
-      "High-quality Fevicol adhesive for household and industrial use.",
-    metaImages: "https://placeholder.com/meta-fevicol-50gm.jpg",
-    sizes: ["50gm", "125gm", "250gm", "500kg", "1kg"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 50 },
-      { currency: "INR", amount: 120 },
-      { currency: "INR", amount: 180 },
-      { currency: "INR", amount: 320 },
-      { currency: "INR", amount: 580 },
-    ],
-  },
-  {
-    id: "2",
     name: "Fevicol SR",
-    images: "https://placeholder.com/fevicol-sr-100ml.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20(SR-988).png",
     description: "Fevicol SR adhesive for strong bonding.",
     isOwnProduct: true,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
       "Strong Fevicol SR adhesive for professional and industrial applications.",
-    metaImages: "https://placeholder.com/meta-fevicol-sr-100ml.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20(SR-988).png",
     sizes: ["100ml", "200ml", "500ml", "1ltr"],
-    variants: [],
+    variants: ["SR-988"],
     prices: [
       { currency: "INR", amount: 90 },
       { currency: "INR", amount: 170 },
@@ -43,9 +24,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "3",
+    id: "2",
     name: "Fevicol Specialized",
-    images: "https://placeholder.com/fevicol-sh.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20(SH).png",
     description:
       "Specialized Fevicol formulas for specific bonding requirements.",
     isOwnProduct: true,
@@ -53,36 +35,37 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Specialized Fevicol formulas for unique bonding applications in various industries.",
-    metaImages: "https://placeholder.com/meta-fevicol-sh.jpg",
-    sizes: [],
-    variants: ["SH", "SR-988"],
-    prices: [
-      { currency: "INR", amount: 260 },
-      { currency: "INR", amount: 280 },
-    ],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20(SH).png",
+    sizes: ["none"],
+    variants: ["SH"],
+    prices: [{ currency: "INR", amount: 260 }],
   },
   {
-    id: "4",
+    id: "3",
     name: "Fevicol Bulbond",
-    images: "https://placeholder.com/fevicol-bulbond-500kg.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20BULBOND.png",
     description: "Fevicol Bulbond adhesive for specialized industrial bonding.",
     isOwnProduct: true,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
       "Heavy-duty Fevicol Bulbond adhesive for demanding industrial projects.",
-    metaImages: "https://placeholder.com/meta-fevicol-bulbond-500kg.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20BULBOND.png",
     sizes: ["500kg", "1kg"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 350 },
       { currency: "INR", amount: 650 },
     ],
   },
   {
-    id: "5",
+    id: "4",
     name: "Fevicol Silicone",
-    images: "https://placeholder.com/fevicol-silicone-white.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20SILICONE.png",
     description:
       "Fevicol Silicone sealant for waterproof sealing applications.",
     isOwnProduct: true,
@@ -90,8 +73,9 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "High-quality Fevicol Silicone sealant for various waterproof applications.",
-    metaImages: "https://placeholder.com/meta-fevicol-silicone-white.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20SILICONE.png",
+    sizes: ["none"],
     variants: ["White", "Clear", "Black"],
     prices: [
       { currency: "INR", amount: 180 },
@@ -100,55 +84,57 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "6",
+    id: "5",
     name: "Fevicol Wood Fill",
-    images: "https://placeholder.com/fevicol-wood-fill-20ml.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20WOOD%20FILL.png",
     description: "Fevicol Wood Fill for repairing wood surfaces.",
     isOwnProduct: true,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
       "Quality Fevicol Wood Fill for wood surface repairs and filling.",
-    metaImages: "https://placeholder.com/meta-fevicol-wood-fill-20ml.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20WOOD%20FILL.png",
     sizes: ["20ml", "50ml"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 75 },
       { currency: "INR", amount: 160 },
     ],
   },
   {
-    id: "7",
+    id: "6",
     name: "Fevicol Fevi Kwik",
-    images: "https://placeholder.com/fevicol-fevi-kwik-500mg.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20FEVI%20KWIK.png",
     description: "Fevicol Fevi Kwik instant adhesive for quick bonding.",
     isOwnProduct: true,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
       "Quick-bonding Fevicol Fevi Kwik for instant adhesion in various applications.",
-    metaImages: "https://placeholder.com/meta-fevicol-fevi-kwik-500mg.jpg",
-    sizes: ["500mg", "1mg", "2mg"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 10 },
-      { currency: "INR", amount: 15 },
-      { currency: "INR", amount: 25 },
-    ],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20FEVI%20KWIK.png",
+    sizes: ["500mg"],
+    variants: ["none"],
+    prices: [{ currency: "INR", amount: 25 }],
   },
   {
-    id: "8",
+    id: "7",
     name: "Fevicol M-Seal",
-    images: "https://placeholder.com/fevicol-m-seal-25gm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20M-SEAL.png",
     description: "Fevicol M-Seal epoxy compound for sealing and repairs.",
     isOwnProduct: true,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
       "Waterproof epoxy putty Fevicol M-Seal for sealing and repairing applications.",
-    metaImages: "https://placeholder.com/meta-fevicol-m-seal-25gm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20M-SEAL.png",
     sizes: ["25gm", "40gm", "90gm"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 40 },
       { currency: "INR", amount: 60 },
@@ -156,51 +142,57 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "9",
+    id: "8",
     name: "Fevicol WD40",
-    images: "https://placeholder.com/fevicol-wd40-32gm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20WD40.png",
     description: "Fevicol WD40 multi-purpose lubricant spray.",
     isOwnProduct: true,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
       "Versatile Fevicol WD40 lubricant spray for rust prevention and machinery maintenance.",
-    metaImages: "https://placeholder.com/meta-fevicol-wd40-32gm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20WD40.png",
     sizes: ["32gm", "63.8gm"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 150 },
       { currency: "INR", amount: 280 },
     ],
   },
   {
-    id: "10",
+    id: "9",
     name: "Fevicol Flex Kwik",
-    images: "https://placeholder.com/fevicol-flex-kwik-20gm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20FLEX%20KWIK.png",
     description: "Fevicol Flex Kwik adhesive for flexible, quick bonding.",
     isOwnProduct: true,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
       "Flexible and quick-setting Fevicol Flex Kwik for versatile bonding applications.",
-    metaImages: "https://placeholder.com/meta-fevicol-flex-kwik-20gm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20FLEX%20KWIK.png",
     sizes: ["20gm"],
-    variants: [],
+    variants: ["none"],
     prices: [{ currency: "INR", amount: 45 }],
   },
   {
-    id: "11",
+    id: "10",
     name: "Araldite Standard",
-    images: "https://placeholder.com/araldite-standard-13gm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ARALDITE%20STANDARD.png",
     description: "Araldite Standard two-component epoxy adhesive.",
     isOwnProduct: true,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
       "Professional two-component Araldite Standard epoxy adhesive for durable bonds.",
-    metaImages: "https://placeholder.com/meta-araldite-standard-13gm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ARALDITE%20STANDARD.png",
     sizes: ["13gm", "36gm", "90gm", "180gm", "270gm", "450gm"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 60 },
       { currency: "INR", amount: 150 },
@@ -211,9 +203,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "12",
+    id: "11",
     name: "Araldite Klear",
-    images: "https://placeholder.com/araldite-klear-10gm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ARALDITE%20KLEAR.png",
     description:
       "Araldite Klear transparent epoxy adhesive for various applications.",
     isOwnProduct: true,
@@ -221,7 +214,8 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional transparent Araldite Klear epoxy adhesive for specialized bonding needs.",
-    metaImages: "https://placeholder.com/meta-araldite-klear-10gm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ARALDITE%20KLEAR.png",
     sizes: ["10gm", "26gm", "90gm", "180gm", "270gm", "450gm"],
     variants: [],
     prices: [
@@ -234,9 +228,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "13",
+    id: "12",
     name: "Masking Tape",
-    images: "https://placeholder.com/masking-tape-half-inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/MASKING%20TAPE.png",
     description:
       "Masking tape for precision painting and sealing applications.",
     isOwnProduct: true,
@@ -244,7 +239,8 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional masking tape for painting, sealing and DIY applications.",
-    metaImages: "https://placeholder.com/meta-masking-tape-half-inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/MASKING%20TAPE.png",
     sizes: ['1/2"', '3/4"', '1"', '1-1/4"', '1-1/2"', '2"'],
     variants: [],
     prices: [
@@ -257,16 +253,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "14",
+    id: "13",
     name: '4" (110mm) 2net Wheel',
-    images: "https://placeholder.com/4-inch-2net-wheel-green.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4-%20(110mm)%20%202net%20WHEEL.png",
+
     description: "4 inch (110mm) 2net abrasive wheel for precision grinding.",
     isOwnProduct: true,
     category: "Abrasive Wheels",
     inStock: true,
     metaDescriptions:
       "Professional 4 inch (110mm) 2net abrasive wheel for precision metal grinding applications.",
-    metaImages: "https://placeholder.com/meta-4-inch-2net-wheel-green.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4-%20(110mm)%202net%20WHEEL.png",
     sizes: [],
     variants: ["Green", "Black", "Red"],
     prices: [
@@ -276,9 +275,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "15",
+    id: "14",
     name: '5" (125mm) 2net Wheel',
-    images: "https://placeholder.com/5-inch-2net-wheel-green.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20-(125mm)%20%202net%20WHEEL.png",
     description:
       "5 inch (125mm) 2net abrasive wheel for precision larger surface grinding.",
     isOwnProduct: true,
@@ -286,7 +286,8 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional 5 inch (125mm) 2net abrasive wheel for precision grinding on larger surfaces.",
-    metaImages: "https://placeholder.com/meta-5-inch-2net-wheel-green.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20-(125mm)%202net%20WHEEL.png",
     sizes: [],
     variants: ["Green", "Black"],
     prices: [
@@ -295,35 +296,18 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "16",
-    name: '14" Wheel',
-    images: "https://placeholder.com/14-inch-wheel-green.jpg",
-    description: "14 inch abrasive wheel for industrial grinding applications.",
-    isOwnProduct: true,
-    category: "Abrasive Wheels",
-    inStock: true,
-    metaDescriptions:
-      "Industrial-grade 14 inch abrasive wheel for large-scale professional grinding applications.",
-    metaImages: "https://placeholder.com/meta-14-inch-wheel-green.jpg",
-    sizes: [],
-    variants: ["Green", "Black", "Red"],
-    prices: [
-      { currency: "INR", amount: 380 },
-      { currency: "INR", amount: 380 },
-      { currency: "INR", amount: 380 },
-    ],
-  },
-  {
-    id: "17",
+    id: "15",
     name: '4" x 6" Grinding Wheel',
-    images: "https://placeholder.com/4-6-grinding-wheel-green.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4x%206%20Grinding%20Wheel.png",
     description: '4" x 6" grinding wheel for surface grinding applications.',
     isOwnProduct: true,
     category: "Abrasive Wheels",
     inStock: true,
     metaDescriptions:
       'Professional 4" x 6" grinding wheel for surface preparation and finishing.',
-    metaImages: "https://placeholder.com/meta-4-6-grinding-wheel-green.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4x%206%20Grinding%20Wheel.png",
     sizes: [],
     variants: ["Green", "Black", "Red"],
     prices: [
@@ -333,16 +317,18 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "18",
+    id: "16",
     name: '5" x 6" Grinding Wheel',
-    images: "https://placeholder.com/5-6-grinding-wheel-green.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5x%206%20Grinding%20Wheel.png",
     description: '5" x 6" grinding wheel for surface grinding on larger areas.',
     isOwnProduct: true,
     category: "Abrasive Wheels",
     inStock: true,
     metaDescriptions:
       'Professional 5" x 6" grinding wheel for surface preparation on larger work areas.',
-    metaImages: "https://placeholder.com/meta-5-6-grinding-wheel-green.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20-(125mm)%202net%20WHEEL.png",
     sizes: [],
     variants: ["Green", "Black"],
     prices: [
@@ -351,16 +337,18 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "19",
+    id: "17",
     name: '7" Grinding Wheel',
-    images: "https://placeholder.com/7-grinding-wheel-green.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/7%20GRINDING%20WHEEL.png",
     description: "7 inch grinding wheel for large-scale grinding applications.",
     isOwnProduct: true,
     category: "Abrasive Wheels",
     inStock: true,
     metaDescriptions:
       "Professional 7 inch grinding wheel for precision grinding on large-scale projects.",
-    metaImages: "https://placeholder.com/meta-7-grinding-wheel-green.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/7%20GRINDING%20WHEEL.png",
     sizes: [],
     variants: ["Green", "Black"],
     prices: [
@@ -369,48 +357,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "20",
-    name: "Abrasive Round Paper",
-    images: "https://placeholder.com/abrasive-round-paper-24.jpg",
-    description: "Abrasive round paper for various sanding applications.",
-    isOwnProduct: true,
-    category: "Abrasive Wheels",
-    inStock: true,
-    metaDescriptions:
-      "Professional abrasive round paper for sanding and surface preparation in various grits.",
-    metaImages: "https://placeholder.com/meta-abrasive-round-paper-24.jpg",
-    sizes: [],
-    variants: [
-      "Grit 24",
-      "Grit 36",
-      "Grit 50",
-      "Grit 60",
-      "Grit 80",
-      "Grit 100",
-      "Grit 120",
-    ],
-    prices: [
-      { currency: "INR", amount: 25 },
-      { currency: "INR", amount: 25 },
-      { currency: "INR", amount: 25 },
-      { currency: "INR", amount: 25 },
-      { currency: "INR", amount: 25 },
-      { currency: "INR", amount: 25 },
-      { currency: "INR", amount: 25 },
-    ],
-  },
-  {
-    id: "21",
-    name: "FLOP DISC",
-    images: "https://placeholder.com/flop-disc-60.jpg",
+    id: "18",
+    name: " 4-100mm FLAP DISC",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4(100mm)%20FLAP%20DISC.png",
     description:
-      "Flop disc for material removal and finishing on metal surfaces.",
+      "Flap disc for material removal and finishing on metal surfaces.",
     isOwnProduct: true,
     category: "Abrasive Wheels",
     inStock: true,
     metaDescriptions:
       "Professional flop disc for efficient material removal and finishing on metal surfaces.",
-    metaImages: "https://placeholder.com/meta-flop-disc-60.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4(100mm)%20FLAP%20DISC.png",
     sizes: [],
     variants: ["Grit 60", "Grit 80", "Grit 120"],
     prices: [
@@ -420,35 +379,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "22",
-    name: "SS POLISHING WHEEL",
-    images: "https://placeholder.com/ss-polishing-wheel-white.jpg",
-    description: "Stainless steel polishing wheel for final finish and shine.",
-    isOwnProduct: true,
-    category: "Abrasive Wheels",
-    inStock: true,
-    metaDescriptions:
-      "Professional stainless steel polishing wheel for achieving mirror finish on metal surfaces.",
-    metaImages: "https://placeholder.com/meta-ss-polishing-wheel-white.jpg",
-    sizes: [],
-    variants: ["WHITE", "RED"],
-    prices: [
-      { currency: "INR", amount: 120 },
-      { currency: "INR", amount: 120 },
-    ],
-  },
-  {
-    id: "23",
-    name: "VELCRO DISC",
-    images: "https://placeholder.com/velcro-disc-80.jpg",
+    id: "19",
+    name: "5 - 120mm VELCRO DISC",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20(120mm)%20VELCRO%20DISC.png",
     description: "Velcro backing disc for sanding with quick replacement.",
     isOwnProduct: true,
     category: "Abrasive Wheels",
     inStock: true,
     metaDescriptions:
       "Velcro backing disc for efficient sanding with easy disc replacement.",
-    metaImages: "https://placeholder.com/meta-velcro-disc-80.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20(120mm)%20VELCRO%20DISC.png",
+    sizes: ["none"],
     variants: ["80", "120"],
     prices: [
       { currency: "INR", amount: 35 },
@@ -456,17 +399,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "24",
+    id: "20",
     name: "Abrasive Water Paper",
-    images: "https://placeholder.com/abrasive-water-paper-60.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ABRASIVE%20WATER%20PAPER.png",
     description: "Wet/dry sandpaper for water-based sanding applications.",
     isOwnProduct: true,
     category: "Abrasive Wheels",
     inStock: true,
     metaDescriptions:
       "Waterproof sandpaper for wet sanding applications with reduced clogging.",
-    metaImages: "https://placeholder.com/meta-abrasive-water-paper-60.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ABRASIVE%20WATER%20PAPER.png",
+    sizes: ["none"],
     variants: ["60", "80", "100", "120", "150", "180", "220", "320"],
     prices: [
       { currency: "INR", amount: 15 },
@@ -480,17 +425,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "25",
+    id: "21",
     name: "Abrasive Roll Paper",
-    images: "https://placeholder.com/abrasive-roll-paper-50.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ABRASIVE%20ROLL%20PAPER.png",
     description: "Abrasive paper roll for sanding larger areas.",
     isOwnProduct: true,
     category: "Abrasive Wheels",
     inStock: true,
     metaDescriptions:
       "Abrasive paper roll for efficient sanding on extended surfaces.",
-    metaImages: "https://placeholder.com/meta-abrasive-roll-paper-50.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ABRASIVE%20ROLL%20PAPER.png",
+    sizes: ["none"],
     variants: ["50", "60", "80", "100", "120"],
     prices: [
       { currency: "INR", amount: 120 },
@@ -501,176 +448,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "26",
-    name: '7" Grinding Wheel',
-    images: "https://placeholder.com/7-grinding-wheel-green.jpg",
-    description:
-      "7-inch grinding wheel for heavy-duty material removal and shaping.",
-    isOwnProduct: true,
-    category: "Abrasive Wheels",
-    inStock: true,
-    metaDescriptions:
-      "Professional 7-inch grinding wheel for industrial grinding applications.",
-    metaImages: "https://placeholder.com/meta-7-grinding-wheel-green.jpg",
-    sizes: [],
-    variants: ["Green", "Black"],
-    prices: [
-      { currency: "INR", amount: 220 },
-      { currency: "INR", amount: 220 },
-    ],
-  },
-  {
-    id: "27",
-    name: "Marble Blade",
-    images: "https://placeholder.com/marble-blade.jpg",
-    description:
-      "Specialized diamond blade for cutting marble and other natural stones.",
-    isOwnProduct: true,
-    category: "Blades",
-    inStock: true,
-    metaDescriptions:
-      "Premium diamond marble blade for precise and clean cutting of marble, granite, and other stone materials.",
-    metaImages: "https://placeholder.com/meta-marble-blade.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 350 }],
-  },
-  {
-    id: "28",
-    name: "Concrete Blade",
-    images: "https://placeholder.com/concrete-blade.jpg",
-    description:
-      "Heavy-duty diamond blade designed for cutting concrete and masonry materials.",
-    isOwnProduct: true,
-    category: "Blades",
-    inStock: true,
-    metaDescriptions:
-      "Professional-grade diamond concrete blade for efficient cutting of concrete, brick, and block materials.",
-    metaImages: "https://placeholder.com/meta-concrete-blade.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 320 }],
-  },
-  {
-    id: "29",
-    name: "Continues Rim Blade",
-    images: "https://placeholder.com/continues-rim-blade.jpg",
-    description:
-      "Continuous rim diamond blade for smooth, chip-free cutting of tile and stone.",
-    isOwnProduct: true,
-    category: "Blades",
-    inStock: true,
-    metaDescriptions:
-      "Premium continuous rim diamond blade for precision cutting of ceramic tile, porcelain, and natural stone.",
-    metaImages: "https://placeholder.com/meta-continues-rim-blade.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 340 }],
-  },
-  {
-    id: "30",
-    name: "Tin Turbo Tile Cutter",
-    images: "https://placeholder.com/tin-turbo-tile-cutter.jpg",
-    description:
-      "Turbo rim diamond blade for fast cutting of ceramic and porcelain tiles.",
-    isOwnProduct: true,
-    category: "Blades",
-    inStock: true,
-    metaDescriptions:
-      "High-performance turbo rim diamond blade for quick and clean cutting of all types of tiles.",
-    metaImages: "https://placeholder.com/meta-tin-turbo-tile-cutter.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 300 }],
-  },
-  {
-    id: "31",
-    name: '4" Diamond Saw Blade',
-    images: "https://placeholder.com/4-x-30t-diamond-saw-blade.jpg",
-    description: "4-inch diamond saw blade for precision cutting.",
-    isOwnProduct: true,
-    category: "Blades",
-    inStock: true,
-    metaDescriptions:
-      "Professional 4-inch diamond saw blade for accurate cutting of various materials.",
-    metaImages: "https://placeholder.com/meta-4-x-30t-diamond-saw-blade.jpg",
-    sizes: [],
-    variants: ["30T", "40T", "12T"],
-    prices: [
-      { currency: "INR", amount: 250 },
-      { currency: "INR", amount: 280 },
-      { currency: "INR", amount: 230 },
-    ],
-  },
-  {
-    id: "32",
-    name: '5" Diamond Saw Blade',
-    images: "https://placeholder.com/5-x-30t-diamond-saw-blade.jpg",
-    description:
-      "5-inch diamond saw blade for precision cutting of larger surfaces.",
-    isOwnProduct: true,
-    category: "Blades",
-    inStock: true,
-    metaDescriptions:
-      "Professional 5-inch diamond saw blade for accurate cutting of various materials.",
-    metaImages: "https://placeholder.com/meta-5-x-30t-diamond-saw-blade.jpg",
-    sizes: [],
-    variants: ["30T", "40T"],
-    prices: [
-      { currency: "INR", amount: 300 },
-      { currency: "INR", amount: 330 },
-    ],
-  },
-  {
-    id: "33",
-    name: '4" TCT Saw Blade',
-    images: "https://placeholder.com/4-x-30t-tct-saw-blade.jpg",
-    description: "4-inch tungsten carbide tipped saw blade for wood cutting.",
-    isOwnProduct: true,
-    category: "Blades",
-    inStock: true,
-    metaDescriptions:
-      "Professional 4-inch TCT saw blade for clean and precise wood cutting applications.",
-    metaImages: "https://placeholder.com/meta-4-x-30t-tct-saw-blade.jpg",
-    sizes: [],
-    variants: ["30T", "40T", "12T"],
-    prices: [
-      { currency: "INR", amount: 200 },
-      { currency: "INR", amount: 220 },
-      { currency: "INR", amount: 180 },
-    ],
-  },
-  {
-    id: "34",
-    name: '5" TCT Saw Blade',
-    images: "https://placeholder.com/5-x-30t-tct-saw-blade.jpg",
-    description:
-      "5-inch tungsten carbide tipped saw blade for larger wood cutting projects.",
-    isOwnProduct: true,
-    category: "Blades",
-    inStock: true,
-    metaDescriptions:
-      "Professional 5-inch TCT saw blade for precise cutting of wooden boards and sheets.",
-    metaImages: "https://placeholder.com/meta-5-x-30t-tct-saw-blade.jpg",
-    sizes: [],
-    variants: ["30T", "40T"],
-    prices: [
-      { currency: "INR", amount: 250 },
-      { currency: "INR", amount: 270 },
-    ],
-  },
-  {
-    id: "35",
+    id: "22",
     name: "Spanner",
-    images: "https://placeholder.com/double-end-spanner.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPANNER.png",
     description: "Professional-grade spanners for fastening applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "High-quality spanners with hardened steel construction for durability and precise fit.",
-    metaImages: "https://placeholder.com/meta-double-end-spanner.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPANNER.png",
+    sizes: ["none"],
     variants: ["Double End", "Ring", "DOE Set", "Rings Set", "T-Spanner"],
     prices: [
       { currency: "INR", amount: 85 },
@@ -681,18 +471,20 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "36",
+    id: "23",
     name: "Screw Driver",
-    images: "https://placeholder.com/screw-driver-mini.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCREW%20DRIVER.png",
     description: "Professional screwdrivers for fastening applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Durable screwdrivers with ergonomic handles for comfortable and efficient use.",
-    metaImages: "https://placeholder.com/meta-screw-driver-mini.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCREW%20DRIVER.png",
     sizes: ["Mini", '3"', '4"', '6"', '8"', '10"', '12"', "Set"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 25 },
       { currency: "INR", amount: 35 },
@@ -705,17 +497,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "37",
+    id: "24",
     name: "Tester",
-    images: "https://placeholder.com/mini-tester.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/TESTER.png",
     description: "Electrical testers for checking voltage in circuits.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Reliable electrical testers with LED indicators for safe voltage detection.",
-    metaImages: "https://placeholder.com/meta-mini-tester.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/TESTER.png",
+    sizes: ["none"],
     variants: ["Mini", "Long"],
     prices: [
       { currency: "INR", amount: 30 },
@@ -723,27 +517,30 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "38",
+    id: "25",
     name: "Cutting Plier",
-    images: "https://placeholder.com/cutting-plier-6.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CUTTING%20PLIER.png",
     description: "Cutting pliers for wire and cable cutting applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Professional cutting pliers with hardened cutting edges for clean and efficient wire cutting.",
-    metaImages: "https://placeholder.com/meta-cutting-plier-6.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CUTTING%20PLIER.png",
     sizes: ['6"', '8"'],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 95 },
       { currency: "INR", amount: 120 },
     ],
   },
   {
-    id: "39",
+    id: "26",
     name: "Nose Plier",
-    images: "https://placeholder.com/nose-plier-6.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/NOSE%20PLIER.png",
     description:
       "Long nose pliers for precision gripping and manipulation in tight spaces.",
     isOwnProduct: true,
@@ -751,18 +548,20 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional long nose pliers with serrated jaws for enhanced grip in detailed work.",
-    metaImages: "https://placeholder.com/meta-nose-plier-6.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/NOSE%20PLIER.png",
     sizes: ['6"', '8"'],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 95 },
       { currency: "INR", amount: 120 },
     ],
   },
   {
-    id: "40",
+    id: "27",
     name: "Wire Striper",
-    images: "https://placeholder.com/wire-striper.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WIRE%20STRIPER.png",
     description:
       "Precision wire stripper for clean removal of insulation from electrical wires.",
     isOwnProduct: true,
@@ -770,24 +569,27 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional wire stripper with multiple gauges for efficient and damage-free insulation removal.",
-    metaImages: "https://placeholder.com/meta-wire-striper.jpg",
-    sizes: [],
-    variants: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WIRE%20STRIPER.png",
+    sizes: ["none"],
+    variants: ["none"],
     prices: [{ currency: "INR", amount: 85 }],
   },
   {
-    id: "41",
+    id: "28",
     name: "Pipe Wrenches",
-    images: "https://placeholder.com/pipe-wrenches-10inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20HAMMER.png",
     description: "Pipe wrench for plumbing and pipe fitting applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Durable pipe wrench with hardened teeth for secure grip on pipes and fittings.",
-    metaImages: "https://placeholder.com/meta-pipe-wrenches-10inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20HAMMER.png",
     sizes: ["10inch", "12inch", "14inch", "18inch", "24inch"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 210 },
       { currency: "INR", amount: 250 },
@@ -797,18 +599,20 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "42",
+    id: "29",
     name: "Adjustable Wrenches",
-    images: "https://placeholder.com/adjustable-wrenches-6inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ADJUSTABLE%20WRENCHES.png",
     description: "Adjustable wrench for versatile fastening applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Precision adjustable wrench with smooth jaw adjustment for various fastener sizes.",
-    metaImages: "https://placeholder.com/meta-adjustable-wrenches-6inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ADJUSTABLE%20WRENCHES.png",
     sizes: ["6inch", "8inch", "10inch", "12inch", "14inch"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 120 },
       { currency: "INR", amount: 150 },
@@ -818,9 +622,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "43",
+    id: "30",
     name: "Carpenter Pincer",
-    images: "https://placeholder.com/carpenter-pincer-6inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CARPENTER%20PINCER.png",
     description:
       "Carpenter pincer for nail extraction and wood working applications.",
     isOwnProduct: true,
@@ -828,27 +633,30 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional carpenter pincer with hardened jaws for effective nail pulling and cutting.",
-    metaImages: "https://placeholder.com/meta-carpenter-pincer-6inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CARPENTER%20PINCER.png",
     sizes: ["6inch", "8inch"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 110 },
       { currency: "INR", amount: 150 },
     ],
   },
   {
-    id: "44",
+    id: "31",
     name: "Tin Cutter",
-    images: "https://placeholder.com/tin-cutter-8inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/TIN%20CUTTER.png",
     description: "Tin cutter for precision cutting of sheet metal.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Professional tin cutter with compound action for clean cuts through sheet metal with minimal effort.",
-    metaImages: "https://placeholder.com/meta-tin-cutter-8inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/TIN%20CUTTER.png",
     sizes: ["8inch", "10inch", "12inch", "14inch"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 180 },
       { currency: "INR", amount: 220 },
@@ -857,9 +665,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "45",
+    id: "33",
     name: "Aviation Snip",
-    images: "https://placeholder.com/aviation-snip-10inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/AVAIATION%20SNIP.png",
     description:
       "10-inch aviation snip for precision cutting of sheet metal in various directions.",
     isOwnProduct: true,
@@ -867,45 +676,27 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional 10-inch aviation snip with color-coded handles for easy identification of cutting direction.",
-    metaImages: "https://placeholder.com/meta-aviation-snip-10inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/AVAIATION%20SNIP.png",
     sizes: ["10inch"],
-    variants: [],
+    variants: ["none"],
     prices: [{ currency: "INR", amount: 250 }],
   },
   {
-    id: "46",
-    name: "Carpenter Hammer - Wood Sledge",
-    images: "https://placeholder.com/wood-sledge-hammer-1lb.jpg",
-    description:
-      "Wood sledge hammer for carpentry and general purpose applications.",
-    isOwnProduct: true,
-    category: "Hammers",
-    inStock: true,
-    metaDescriptions:
-      "Professional wood sledge hammer with balanced head and comfortable wooden handle for precision work.",
-    metaImages: "https://placeholder.com/meta-wood-sledge-hammer-1lb.jpg",
-    sizes: ["1Lb", "1.5Lb", "2Lb", "3Lb"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 180 },
-      { currency: "INR", amount: 210 },
-      { currency: "INR", amount: 250 },
-      { currency: "INR", amount: 320 },
-    ],
-  },
-  {
-    id: "47",
+    id: "34",
     name: "Fiber Sledge Hammer",
-    images: "https://placeholder.com/fiber-sledge-hammer-1lb.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20SLEDGE%20HAMMER.png",
     description: "Fiber handle sledge hammer for reduced vibration during use.",
     isOwnProduct: true,
     category: "Hammers",
     inStock: true,
     metaDescriptions:
       "Ergonomic fiber handle sledge hammer with non-slip grip for comfortable and precise striking.",
-    metaImages: "https://placeholder.com/meta-fiber-sledge-hammer-1lb.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20SLEDGE%20HAMMER.png",
     sizes: ["1Lb", "1.5Lb", "2Lb", "3Lb"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 220 },
       { currency: "INR", amount: 260 },
@@ -914,9 +705,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "48",
+    id: "35",
     name: "Claw Hammer",
-    images: "https://placeholder.com/claw-hammer-half-lb.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CLAW%20HAMMER.png",
     description:
       "Claw hammer for precision nail driving and removal in carpentry work.",
     isOwnProduct: true,
@@ -924,7 +716,8 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional claw hammer with balanced head for detailed woodworking and finishing applications.",
-    metaImages: "https://placeholder.com/meta-claw-hammer-half-lb.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CLAW%20HAMMER.png",
     sizes: ["1/2Lb", "1Lb"],
     variants: ["Wooden Handle", "27mm Fiber"],
     prices: [
@@ -934,27 +727,30 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "49",
+    id: "36",
     name: "Pipe Hammer",
-    images: "https://placeholder.com/pipe-hammer-3-4lb.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20HAMMER.png",
     description: "Pipe hammer for plumbing and pipe fitting applications.",
     isOwnProduct: true,
     category: "Hammers",
     inStock: true,
     metaDescriptions:
       "Professional pipe hammer with specialized head design for plumbing installations and pipe fitting work.",
-    metaImages: "https://placeholder.com/meta-pipe-hammer-1lb.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20HAMMER.png",
     sizes: ["3/4Lb", "1Lb"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 140 },
       { currency: "INR", amount: 160 },
     ],
   },
   {
-    id: "50",
+    id: "37",
     name: "Rubber Hammer",
-    images: "https://placeholder.com/rubber-hammer-380gm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20HAMMER.png",
     description:
       "Rubber hammer for non-marking impact in assembly and woodworking.",
     isOwnProduct: true,
@@ -962,9 +758,10 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional rubber hammer with soft face for gentle striking on delicate surfaces without causing damage.",
-    metaImages: "https://placeholder.com/meta-rubber-hammer-380gm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20HAMMER.png",
     sizes: ["380Gm", "480Gm", "620Gm"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 130 },
       { currency: "INR", amount: 150 },
@@ -972,169 +769,56 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "51",
+    id: "38",
     name: "Hexa Bolt",
-    images: "https://placeholder.com/hexa-bolt-6mm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HEXA%20BOLT.png",
     description: "Hexagonal bolt for general fastening applications.",
     isOwnProduct: true,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
       "Standard hexagonal bolt with precise threading for secure fastening applications.",
-    metaImages: "https://placeholder.com/meta-hexa-bolt-6mm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HEXA%20BOLT.png",
     sizes: ['6mm (1/4")', '8mm (5/16")'],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 15 },
       { currency: "INR", amount: 18 },
     ],
   },
   {
-    id: "52",
-    name: "Double End Spanner Set",
-    images: "https://placeholder.com/double-end-spanner-set.jpg",
-    description:
-      "Complete set of double-ended spanners for versatile fastening applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Professional-grade double-end spanner set with heat-treated chrome vanadium steel for durability and precise fit on fasteners.",
-    metaImages: "https://placeholder.com/meta-double-end-spanner-set.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 350 }],
-  },
-  {
-    id: "53",
-    name: "Ring Spanner Set",
-    images: "https://placeholder.com/ring-spanner-set.jpg",
-    description:
-      "Complete set of ring spanners for secure grip on fasteners in tight spaces.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Professional ring spanner set with 12-point design for better access and 15° offset for clearance in restricted areas.",
-    metaImages: "https://placeholder.com/meta-ring-spanner-set.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 420 }],
-  },
-  {
-    id: "54",
-    name: "T-Spanner",
-    images: "https://placeholder.com/t-spanner.jpg",
-    description:
-      "T-shaped spanner for enhanced leverage in fastening applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Durable T-shaped spanner with comfortable grip for increased torque when working with stubborn fasteners.",
-    metaImages: "https://placeholder.com/meta-t-spanner.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 120 }],
-  },
-  {
-    id: "55",
-    name: "Screw Driver",
-    images: "https://placeholder.com/screwdriver-mini.jpg",
-    description: "Screwdriver for fastening applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Professional screwdriver with ergonomic grip for various fastening applications.",
-    metaImages: "https://placeholder.com/meta-screwdriver-mini.jpg",
-    sizes: ["Mini", '3"', '4"', '6"', '8"', '10"', '12"'],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 35 },
-      { currency: "INR", amount: 45 },
-      { currency: "INR", amount: 55 },
-      { currency: "INR", amount: 65 },
-      { currency: "INR", amount: 80 },
-      { currency: "INR", amount: 95 },
-      { currency: "INR", amount: 110 },
-    ],
-  },
-  {
-    id: "56",
-    name: "Screw Driver Set",
-    images: "https://placeholder.com/screwdriver-set.jpg",
-    description:
-      "Comprehensive screwdriver set with multiple tips and sizes for versatile use.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Professional screwdriver set with precision-machined tips in various sizes and styles for complete fastening solutions.",
-    metaImages: "https://placeholder.com/meta-screwdriver-set.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 280 }],
-  },
-  {
-    id: "57",
-    name: "Mini Tester",
-    images: "https://placeholder.com/mini-tester.jpg",
-    description:
-      "Pocket-sized electrical voltage tester for quick circuit checks.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Compact electrical tester with LED indicator for safe and quick verification of live circuits in household applications.",
-    metaImages: "https://placeholder.com/meta-mini-tester.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 25 }],
-  },
-  {
-    id: "58",
-    name: "Long Tester",
-    images: "https://placeholder.com/long-tester.jpg",
-    description:
-      "Extended reach electrical voltage tester for improved safety and accessibility.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Professional long-reach electrical tester with insulated shaft and bright indicator for safely testing circuits in hard-to-reach areas.",
-    metaImages: "https://placeholder.com/meta-long-tester.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 40 }],
-  },
-  {
-    id: "59",
+    id: "39",
     name: "Hand Saw",
-    images: "https://placeholder.com/hand-saw.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HAND%20SAW.png",
     description: "General purpose hand saw for wood cutting applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Professional hand saw with precision-ground teeth for smooth, efficient cutting in various woodworking applications.",
-    metaImages: "https://placeholder.com/meta-hand-saw.jpg",
-    sizes: [],
-    variants: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HAND%20SAW.png",
+    sizes: ["none"],
+    variants: ["none"],
     prices: [{ currency: "INR", amount: 220 }],
   },
   {
-    id: "60",
+    id: "40",
     name: "Hacksaw",
-    images: "https://placeholder.com/hacksaw-wood-frame.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HACKSAW.png",
     description: "Hacksaw for metal cutting applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Professional hacksaw with adjustable blade tension for precise cutting of metal and plastic materials.",
-    metaImages: "https://placeholder.com/meta-hacksaw-wood-frame.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HACKSAW.png",
+    sizes: ["none"],
     variants: ["Wood Frame", "PVC Frame", "Mini Frame"],
     prices: [
       { currency: "INR", amount: 180 },
@@ -1143,54 +827,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "61",
-    name: "Hacksaw Blade",
-    images: "https://placeholder.com/hacksaw-blade-1-inch.jpg",
-    description: "Hacksaw blade for cutting applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Durable hacksaw blade with heat-treated teeth for long-lasting cutting performance in various materials.",
-    metaImages: "https://placeholder.com/meta-hacksaw-blade-1-inch.jpg",
-    sizes: ["1/2 inch", "1 inch", "Mini"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 15 },
-      { currency: "INR", amount: 20 },
-      { currency: "INR", amount: 12 },
-    ],
-  },
-  {
-    id: "62",
-    name: "File",
-    images: "https://placeholder.com/file-with-handle.jpg",
-    description: "Metal file for shaping and smoothing materials.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Professional metal file for controlled material removal and surface finishing in metalworking applications.",
-    metaImages: "https://placeholder.com/meta-file-with-handle.jpg",
-    sizes: [],
-    variants: ["With Handle", "Without Handle"],
-    prices: [
-      { currency: "INR", amount: 85 },
-      { currency: "INR", amount: 65 },
-    ],
-  },
-  {
-    id: "63",
+    id: "41",
     name: "Poker",
-    images: "https://placeholder.com/poker-wood.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/POCKER.png",
     description: "Poker tool for fire management and maintenance.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Fire poker with heat-resistant design for safely managing fireplaces and wood stoves.",
-    metaImages: "https://placeholder.com/meta-poker-wood.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/POCKER.png",
+    sizes: ["none"],
     variants: ["Wood", "PVC"],
     prices: [
       { currency: "INR", amount: 55 },
@@ -1198,18 +847,20 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "64",
+    id: "42",
     name: "Jack Planner",
-    images: "https://placeholder.com/jack-planner-1inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/JACK%20PLANNER.png",
     description: "Jack planner for woodworking and smoothing applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Professional jack planner with adjustable blade depth for versatile woodworking and carpentry applications.",
-    metaImages: "https://placeholder.com/meta-jack-planner-1inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/JACK%20PLANNER.png",
     sizes: ["1 inch", "1 1/4 inch", "1 1/2 inch"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 180 },
       { currency: "INR", amount: 210 },
@@ -1217,16 +868,18 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "65",
-    name: "Wood Chisel",
-    images: "https://placeholder.com/wood-chisel-1-inch.jpg",
+    id: "43",
+    name: "Chisel",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CHISEL.png",
     description: "Wood chisel for woodworking and joinery applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Professional wood chisel with hardened steel blade for detailed carpentry work and accurate joinery applications.",
-    metaImages: "https://placeholder.com/meta-wood-chisel-1-inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CHISEL.png",
     sizes: [
       "1/2 inch",
       "3/4 inch",
@@ -1237,7 +890,7 @@ export const products: ProductType[] = [
       "2 1/2 inch",
       "3 inch",
     ],
-    variants: [],
+    variants: ["Wood", "Concrete"],
     prices: [
       { currency: "INR", amount: 85 },
       { currency: "INR", amount: 95 },
@@ -1250,40 +903,20 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "66",
-    name: "Concrete Chisel",
-    images: "https://placeholder.com/concrete-point-chisel-10inch.jpg",
-    description: "Chisel for breaking and shaping concrete surfaces.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Heavy-duty concrete chisel for efficient material removal in construction and demolition work.",
-    metaImages: "https://placeholder.com/meta-concrete-point-chisel-10inch.jpg",
-    sizes: ["10 inch", "12 inch"],
-    variants: ["Point Chisel", "Flat Chisel", "Safety Chisel"],
-    prices: [
-      { currency: "INR", amount: 130 },
-      { currency: "INR", amount: 150 },
-      { currency: "INR", amount: 130 },
-      { currency: "INR", amount: 150 },
-      { currency: "INR", amount: 145 },
-      { currency: "INR", amount: 165 },
-    ],
-  },
-  {
-    id: "67",
+    id: "44",
     name: "Oil Can",
-    images: "https://placeholder.com/oil-can-quarter-litre.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/OIL%20CAN.png",
     description: "Oil can for precision lubrication of tools and machinery.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Precision oil can with controlled flow spout for accurate lubrication of tools, machinery, and mechanical components.",
-    metaImages: "https://placeholder.com/meta-oil-can-quarter-litre.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/OIL%20CAN.png",
     sizes: ["1/4 litre", "1/2 litre", "3/4 litre"],
-    variants: [],
+    variants: ["None"],
     prices: [
       { currency: "INR", amount: 65 },
       { currency: "INR", amount: 85 },
@@ -1291,48 +924,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "68",
-    name: "Leaf Bit",
-    images: "https://placeholder.com/leaf-bit-10.jpg",
-    description: "Leaf-shaped drill bit for specialized drilling applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Precision leaf-shaped drill bit for specialized cutting patterns in woodworking and decorative applications.",
-    metaImages: "https://placeholder.com/meta-leaf-bit-10.jpg",
-    sizes: [],
-    variants: [
-      "10",
-      "12",
-      "13",
-      "14",
-      "16",
-      "18",
-      "19",
-      "20",
-      "22",
-      "25",
-      "32",
-    ],
-    prices: [
-      { currency: "INR", amount: 45 },
-      { currency: "INR", amount: 50 },
-      { currency: "INR", amount: 55 },
-      { currency: "INR", amount: 60 },
-      { currency: "INR", amount: 65 },
-      { currency: "INR", amount: 70 },
-      { currency: "INR", amount: 75 },
-      { currency: "INR", amount: 80 },
-      { currency: "INR", amount: 85 },
-      { currency: "INR", amount: 95 },
-      { currency: "INR", amount: 110 },
-    ],
-  },
-  {
-    id: "69",
+    id: "45",
     name: "Flat Bit Set",
-    images: "https://placeholder.com/flat-bit-set.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FLAT%20BIT%20SET.png",
     description:
       "Comprehensive set of flat drill bits for woodworking applications.",
     isOwnProduct: true,
@@ -1340,15 +935,17 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Professional flat bit set with multiple sizes for versatile hole drilling in various woodworking and carpentry projects.",
-    metaImages: "https://placeholder.com/meta-flat-bit-set.jpg",
-    sizes: [],
-    variants: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FLAT%20BIT%20SET.png",
+    sizes: ["None"],
+    variants: ["None"],
     prices: [{ currency: "INR", amount: 320 }],
   },
   {
-    id: "70",
-    name: "Scrabber - With Handle",
-    images: "https://placeholder.com/scrabber-with-handle-3inch.jpg",
+    id: "46",
+    name: "Scrabber",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCRABBER.png",
     description:
       "Scraper tool with handle for surface preparation and cleaning.",
     isOwnProduct: true,
@@ -1356,54 +953,20 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Ergonomic scraper with comfortable handle for efficient paint removal and surface preparation in renovation projects.",
-    metaImages: "https://placeholder.com/meta-scrabber-with-handle-3inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCRABBER.png",
     sizes: ["3 inch", "4 inch"],
-    variants: [],
+    variants: ["None"],
     prices: [
       { currency: "INR", amount: 65 },
       { currency: "INR", amount: 75 },
     ],
   },
   {
-    id: "71",
-    name: "Scrabber - Without Handle",
-    images: "https://placeholder.com/scrabber-without-handle-2inch.jpg",
-    description:
-      "Blade-only scraper for detail work and custom handle applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Precision scraper blade for detailed paint removal and surface preparation in tight spaces and restoration projects.",
-    metaImages:
-      "https://placeholder.com/meta-scrabber-without-handle-2inch.jpg",
-    sizes: ["2 inch"],
-    variants: [],
-    prices: [{ currency: "INR", amount: 45 }],
-  },
-  {
-    id: "72",
-    name: "Putty Sheet",
-    images: "https://placeholder.com/putty-sheet-2inch.jpg",
-    description: "Putty knife for applying and spreading filler materials.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Flexible putty knife with stainless steel blade for precise application of fillers and compounds in finishing work.",
-    metaImages: "https://placeholder.com/meta-putty-sheet-2inch.jpg",
-    sizes: ["2 inch", "3 inch", "4 inch"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 35 },
-      { currency: "INR", amount: 45 },
-      { currency: "INR", amount: 55 },
-    ],
-  },
-  {
-    id: "73",
-    name: "Spirit Level - With Magnet",
-    images: "https://placeholder.com/spirit-level-with-magnet-1feet.jpg",
+    id: "47",
+    name: "Spirit Level",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPIRIT%20LEVEL.png",
     description:
       "Magnetic spirit level for accurate horizontal and vertical alignment.",
     isOwnProduct: true,
@@ -1412,9 +975,9 @@ export const products: ProductType[] = [
     metaDescriptions:
       "Professional spirit level with magnetic edge for hands-free operation on metal surfaces in construction applications.",
     metaImages:
-      "https://placeholder.com/meta-spirit-level-with-magnet-1feet.jpg",
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPIRIT%20LEVEL.png",
     sizes: ["1 feet", "1 1/5 feet", "2 feet"],
-    variants: [],
+    variants: ["With Magnet", "Without Magnet"],
     prices: [
       { currency: "INR", amount: 120 },
       { currency: "INR", amount: 140 },
@@ -1422,38 +985,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "74",
-    name: "Spirit Level - Without Magnet",
-    images: "https://placeholder.com/spirit-level-without-magnet-1feet.jpg",
-    description:
-      "Non-magnetic spirit level for general alignment applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Lightweight spirit level with precision vials for accurate horizontal and vertical alignment in household and DIY projects.",
-    metaImages:
-      "https://placeholder.com/meta-spirit-level-without-magnet-1feet.jpg",
-    sizes: ["1 feet", "1 1/5 feet", "2 feet"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 100 },
-      { currency: "INR", amount: 120 },
-      { currency: "INR", amount: 160 },
-    ],
-  },
-  {
-    id: "75",
-    name: "Plumbob - Wood",
-    images: "https://placeholder.com/plumbob-wood-medium.jpg",
+    id: "48",
+    name: "Plumbob",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20WRENCHES.png",
     description: "Wooden plumb bob for vertical alignment applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Traditional wooden plumb bob with brass tip for accurate vertical alignment in construction and framing projects.",
-    metaImages: "https://placeholder.com/meta-plumbob-wood-medium.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20WRENCHES.png",
+    sizes: ["None"],
     variants: ["Medium", "Large"],
     prices: [
       { currency: "INR", amount: 85 },
@@ -1461,71 +1005,19 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "76",
-    name: "Plumbob - PVC",
-    images: "https://placeholder.com/plumbob-pvc.jpg",
-    description:
-      "Durable PVC plumb bob for construction alignment applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Lightweight PVC plumb bob with precise point for accurate vertical alignment in construction and framing projects.",
-    metaImages: "https://placeholder.com/meta-plumbob-pvc.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 95 }],
-  },
-  {
-    id: "77",
-    name: "Oil Can",
-    images: "https://placeholder.com/oil-can-quarter-litre.jpg",
-    description: "Oil can for precision lubrication applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Oil can with flexible spout for targeted lubrication of mechanical components and tools.",
-    metaImages: "https://placeholder.com/meta-oil-can-quarter-litre.jpg",
-    sizes: ["1/4 litre", "1/2 litre", "3/4 litre"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 75 },
-      { currency: "INR", amount: 90 },
-      { currency: "INR", amount: 110 },
-    ],
-  },
-  {
-    id: "78",
-    name: "Flat Bit",
-    images: "https://placeholder.com/flat-bit-10.jpg",
-    description: "Flat drill bit for wood boring applications.",
-    isOwnProduct: true,
-    category: "Hand Tools",
-    inStock: true,
-    metaDescriptions:
-      "Precision-ground flat bit with optimized cutting geometry for clean, efficient boring in woodworking projects.",
-    metaImages: "https://placeholder.com/meta-flat-bit-10.jpg",
-    sizes: [],
-    variants: ["Size 10", "Size 12", "Size 13"],
-    prices: [
-      { currency: "INR", amount: 50 },
-      { currency: "INR", amount: 55 },
-      { currency: "INR", amount: 58 },
-    ],
-  },
-  {
-    id: "79",
+    id: "49",
     name: "Trowel",
-    images: "https://placeholder.com/trowel-wood.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/trowel%20new.png",
     description: "Trowel for concrete and masonry finishing applications.",
     isOwnProduct: true,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
       "Professional trowel for creating fine texture on concrete and plaster surfaces in construction work.",
-    metaImages: "https://placeholder.com/meta-trowel-wood.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/trowel%20new.png",
+    sizes: ["None"],
     variants: ["Wood", "Yellow", "Dekok", "Orange", "Blue"],
     prices: [
       { currency: "INR", amount: 120 },
@@ -1536,44 +1028,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "80",
-    name: "Gloves",
-    images: "https://placeholder.com/gloves-14inch-pvc.jpg",
-    description: "Safety gloves for protection in various work environments.",
-    isOwnProduct: true,
-    category: "Safety Equipment",
-    inStock: true,
-    metaDescriptions:
-      "Heavy-duty safety gloves for secure grip when handling chemicals, oils, and other hazardous materials in industrial settings.",
-    metaImages: "https://placeholder.com/meta-gloves-14inch-pvc.jpg",
-    sizes: [],
-    variants: ["14inch PVC", "14inch Fera Guard", "12inch Taiyo"],
-    prices: [
-      { currency: "INR", amount: 95 },
-      { currency: "INR", amount: 120 },
-      { currency: "INR", amount: 110 },
-    ],
-  },
-  {
-    id: "81",
-    name: "Safety Gloves",
-    images: "https://placeholder.com/safety-gloves.jpg",
-    description:
-      "General purpose safety gloves for construction and handling tasks.",
-    isOwnProduct: true,
-    category: "Safety Equipment",
-    inStock: true,
-    metaDescriptions:
-      "Standard safety gloves with cut-resistant fabric and non-slip grip for general construction, maintenance, and material handling applications.",
-    metaImages: "https://placeholder.com/meta-safety-gloves.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 85 }],
-  },
-  {
-    id: "82",
+    id: "50",
     name: "Hercules Gloves",
-    images: "https://placeholder.com/hercules-gloves.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HERCULES%20GLOVES.png",
     description:
       "Heavy-duty Hercules gloves for maximum protection in demanding environments.",
     isOwnProduct: true,
@@ -1581,200 +1039,25 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Premium Hercules heavy-duty gloves with reinforced palm and knuckle protection for maximum safety in extreme working conditions.",
-    metaImages: "https://placeholder.com/meta-hercules-gloves.jpg",
-    sizes: [],
-    variants: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HERCULES%20GLOVES.png",
+    sizes: ["none"],
+    variants: ["none"],
     prices: [{ currency: "INR", amount: 145 }],
   },
   {
-    id: "83",
-    name: "Finger Gloves",
-    images: "https://placeholder.com/finger-gloves.jpg",
-    description:
-      "Protective finger gloves for detailed work requiring fingertip protection.",
-    isOwnProduct: true,
-    category: "Safety Equipment",
-    inStock: true,
-    metaDescriptions:
-      "Specialized finger gloves with reinforced tips for precision work requiring tactile sensitivity and fingertip protection.",
-    metaImages: "https://placeholder.com/meta-finger-gloves.jpg",
-    sizes: [],
-    variants: [],
-    prices: [{ currency: "INR", amount: 40 }],
-  },
-  {
-    id: "84",
-    name: "Eye Glasses",
-    images: "https://placeholder.com/eye-glasses-black.jpg",
-    description:
-      "Safety glasses for eye protection during construction and woodworking.",
-    isOwnProduct: true,
-    category: "Safety Equipment",
-    inStock: true,
-    metaDescriptions:
-      "Impact-resistant safety glasses with side shields for comprehensive eye protection in construction and woodworking environments.",
-    metaImages: "https://placeholder.com/meta-eye-glasses-black.jpg",
-    sizes: [],
-    variants: ["Black", "White"],
-    prices: [
-      { currency: "INR", amount: 75 },
-      { currency: "INR", amount: 75 },
-    ],
-  },
-  {
-    id: "85",
-    name: "Shield Glass",
-    images: "https://placeholder.com/shield-glass-black.jpg",
-    description: "Full-face shield glass for maximum face protection.",
-    isOwnProduct: true,
-    category: "Safety Equipment",
-    inStock: true,
-    metaDescriptions:
-      "Heavy-duty face shield with impact-resistant visor for complete face protection in grinding, cutting, and chemical handling applications.",
-    metaImages: "https://placeholder.com/meta-shield-glass-black.jpg",
-    sizes: [],
-    variants: ["Black", "White"],
-    prices: [
-      { currency: "INR", amount: 125 },
-      { currency: "INR", amount: 125 },
-    ],
-  },
-  {
-    id: "86",
-    name: "Wood Sledge Hammer",
-    images: "https://placeholder.com/wood-sledge-hammer-1lb.jpg",
-    description:
-      "Wooden sledge hammer for demolition and striking applications.",
-    isOwnProduct: true,
-    category: "Hammers",
-    inStock: true,
-    metaDescriptions:
-      "Wooden sledge hammer with balanced head for precision striking in demolition and forming applications.",
-    metaImages: "https://placeholder.com/meta-wood-sledge-hammer-1lb.jpg",
-    sizes: ["1Lb", "1.5Lb", "2Lb", "3Lb"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 180 },
-      { currency: "INR", amount: 210 },
-      { currency: "INR", amount: 240 },
-      { currency: "INR", amount: 280 },
-    ],
-  },
-  {
-    id: "87",
-    name: "Fiber Sledge Hammer",
-    images: "https://placeholder.com/fiber-sledge-hammer-1lb.jpg",
-    description:
-      "Fiberglass sledge hammer for demolition with reduced vibration.",
-    isOwnProduct: true,
-    category: "Hammers",
-    inStock: true,
-    metaDescriptions:
-      "Ergonomic fiberglass sledge hammer with vibration-reducing handle for comfortable use in demolition and forming applications.",
-    metaImages: "https://placeholder.com/meta-fiber-sledge-hammer-1lb.jpg",
-    sizes: ["1Lb", "1.5Lb", "2Lb", "3Lb"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 195 },
-      { currency: "INR", amount: 225 },
-      { currency: "INR", amount: 255 },
-      { currency: "INR", amount: 295 },
-    ],
-  },
-  {
-    id: "88",
-    name: "Claw Hammer",
-    images: "https://placeholder.com/claw-hammer-half-lb.jpg",
-    description: "Claw hammer for carpentry and construction applications.",
-    isOwnProduct: true,
-    category: "Hammers",
-    inStock: true,
-    metaDescriptions:
-      "Professional claw hammer with hardened steel head for durability in framing, woodworking, and general construction tasks.",
-    metaImages: "https://placeholder.com/meta-claw-hammer-half-lb.jpg",
-    sizes: ["1/2Lb", "1Lb", "27mm Fiber"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 120 },
-      { currency: "INR", amount: 150 },
-      { currency: "INR", amount: 175 },
-    ],
-  },
-  {
-    id: "89",
-    name: "Pipe Hammer",
-    images: "https://placeholder.com/pipe-hammer-three-quarter-lb.jpg",
-    description: "Pipe hammer for plumbing and metalwork applications.",
-    isOwnProduct: true,
-    category: "Hammers",
-    inStock: true,
-    metaDescriptions:
-      "Specialized pipe hammer with ball peen head for shaping and forming metal in plumbing and mechanical applications.",
-    metaImages: "https://placeholder.com/meta-pipe-hammer-three-quarter-lb.jpg",
-    sizes: ["3/4Lb", "1Lb"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 160 },
-      { currency: "INR", amount: 185 },
-    ],
-  },
-  {
-    id: "90",
-    name: "Rubber Hammer",
-    images: "https://placeholder.com/rubber-hammer-380gm.jpg",
-    description: "Rubber hammer for non-marring striking applications.",
-    isOwnProduct: true,
-    category: "Hammers",
-    inStock: true,
-    metaDescriptions:
-      "Rubber hammer with non-marring head for gentle assembly and adjustment of delicate components and finished surfaces.",
-    metaImages: "https://placeholder.com/meta-rubber-hammer-380gm.jpg",
-    sizes: ["380Gm", "480Gm", "620Gm"],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 130 },
-      { currency: "INR", amount: 150 },
-      { currency: "INR", amount: 170 },
-    ],
-  },
-  {
-    id: "91",
-    name: "Hexa Bolt",
-    images: "https://placeholder.com/hexa-bolt-6mm.jpg",
-    description: "Hexagonal bolt for assembly applications.",
-    isOwnProduct: true,
-    category: "Fasteners",
-    inStock: true,
-    metaDescriptions:
-      "Precision-manufactured hexagonal bolt with uniform threading for secure fastening in assembly and construction projects.",
-    metaImages: "https://placeholder.com/meta-hexa-bolt-6mm.jpg",
-    sizes: [
-      '6mm (1/4")',
-      '8mm (5/16")',
-      '10mm (3/8")',
-      '12mm (1/2")',
-      '16mm (5/8")',
-    ],
-    variants: [],
-    prices: [
-      { currency: "INR", amount: 8 },
-      { currency: "INR", amount: 10 },
-      { currency: "INR", amount: 15 },
-      { currency: "INR", amount: 18 },
-      { currency: "INR", amount: 25 },
-    ],
-  },
-  {
-    id: "92",
+    id: "51",
     name: "Hexa Nut",
-    images: "https://placeholder.com/hexa-nut-6mm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HEXA%20NUT.png",
     description: "Hexagonal nut for securing bolts.",
     isOwnProduct: true,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
       "Precision-manufactured hexagonal nut with uniform threading for secure fastening in assembly and construction projects.",
-    metaImages: "https://placeholder.com/meta-hexa-nut-6mm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HEXA%20NUT.png",
     sizes: [
       '6mm (1/4")',
       '8mm (5/16")',
@@ -1784,7 +1067,7 @@ export const products: ProductType[] = [
       '18mm (3/4")',
       '20mm (1")',
     ],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 3 },
       { currency: "INR", amount: 4 },
@@ -1796,9 +1079,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "93",
+    id: "52",
     name: "Washer",
-    images: "https://placeholder.com/washer-quarter-inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20WASHER.png",
     description:
       "Flat washer for use with bolts and screws to distribute load.",
     isOwnProduct: true,
@@ -1806,7 +1090,8 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Flat washer with uniform thickness for even load distribution in fastening applications with bolts and screws.",
-    metaImages: "https://placeholder.com/meta-washer-quarter-inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20WASHER.png",
     sizes: ['1/4"', '5/16"', '3/8"', '1/2"', '5/8"', '3/4"', '1"'],
     variants: ["Standard", "Nail"],
     prices: [
@@ -1821,25 +1106,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "94",
-    name: "Washer",
-    images: "https://placeholder.com/washer-one-inch.jpg",
-    description:
-      "Flat washer for use with bolts and screws to distribute load.",
-    isOwnProduct: true,
-    category: "Fasteners",
-    inStock: true,
-    metaDescriptions:
-      "Extra-large flat washer with reinforced design for maximum load distribution in heavy-duty structural applications and industrial machinery.",
-    metaImages: "https://placeholder.com/meta-washer-one-inch.jpg",
-    sizes: ['1"'],
-    variants: [],
-    prices: [{ currency: "INR", amount: 10 }],
-  },
-  {
-    id: "95",
+    id: "53",
     name: "Anchor Bolt",
-    images: "https://placeholder.com/anchor-bolt-6mm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ANCHOR%20BOLT.png",
     description:
       "Anchor bolt for securing objects to concrete and masonry surfaces.",
     isOwnProduct: true,
@@ -1847,9 +1117,10 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Precision-engineered anchor bolts with expanding mechanism for reliable fastening in concrete and masonry applications requiring various load capacities.",
-    metaImages: "https://placeholder.com/meta-anchor-bolt-6mm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ANCHOR%20BOLT.png",
     sizes: ["6mm", "8mm", "10mm", "12mm"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 12 },
       { currency: "INR", amount: 15 },
@@ -1858,18 +1129,20 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "96",
+    id: "54",
     name: "Eye Hook",
-    images: "https://placeholder.com/eye-hook-6mm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/EYE%20HOOK.png",
     description: "Eye hook for hanging objects and securing cables or ropes.",
     isOwnProduct: true,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
       "Versatile eye hooks with precision-formed eyes for secure hanging and attachment of cables, ropes, and fixtures in various applications.",
-    metaImages: "https://placeholder.com/meta-eye-hook-6mm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/EYE%20HOOK.png",
     sizes: ["6mm", "8mm", "10mm", "12mm"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 10 },
       { currency: "INR", amount: 14 },
@@ -1878,9 +1151,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "97",
+    id: "55",
     name: "Pipe Anchor Bolt",
-    images: "https://placeholder.com/pipe-anchor-bolt-6mm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20ANCHOR%20BOLT.png",
     description:
       "Pipe anchor bolt for securing pipes to concrete and masonry surfaces.",
     isOwnProduct: true,
@@ -1888,9 +1162,10 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Specialized pipe anchor bolts with curved profile for secure mounting of pipes and conduits to concrete and masonry surfaces in various applications.",
-    metaImages: "https://placeholder.com/meta-pipe-anchor-bolt-6mm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20ANCHOR%20BOLT.png",
     sizes: ["6mm", "8mm", "10mm"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 15 },
       { currency: "INR", amount: 18 },
@@ -1898,9 +1173,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "98",
+    id: "56",
     name: "Coach Screw",
-    images: "https://placeholder.com/coach-screw-6mm.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/COACH%20SCREW.png",
     description:
       "Coach screw for securing wood to wood or wood to masonry applications.",
     isOwnProduct: true,
@@ -1908,9 +1184,10 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Versatile coach screws with hexagonal head and wood thread for secure fastening in timber construction and wooden structures.",
-    metaImages: "https://placeholder.com/meta-coach-screw-6mm.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/COACH%20SCREW.png",
     sizes: ["6mm", "8mm", "10mm"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 12 },
       { currency: "INR", amount: 16 },
@@ -1918,9 +1195,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "99",
+    id: "57",
     name: "Rack Bolt",
-    images: "https://placeholder.com/rack-bolt.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PVC%20PAD%205.png",
     description:
       "Specialized rack bolt for securing shelving and racking systems.",
     isOwnProduct: true,
@@ -1928,24 +1206,27 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Precision-engineered rack bolt with reinforced shank and specialized thread pattern for secure installation of shelving, racking systems, and heavy storage units.",
-    metaImages: "https://placeholder.com/meta-rack-bolt.jpg",
-    sizes: [],
-    variants: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PVC%20PAD%205.png",
+    sizes: ["none"],
+    variants: ["none"],
     prices: [{ currency: "INR", amount: 22 }],
   },
   {
-    id: "100",
+    id: "58",
     name: "Cot Bolt",
-    images: "https://placeholder.com/cot-bolt-six-inch.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CUTTING%20PLIER.png",
     description: "Cot bolt for furniture assembly and bed frame construction.",
     isOwnProduct: true,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
       "Specialized cot bolts with barrel nut design for secure, detachable connections in wooden bed frames, cots, and furniture assembly.",
-    metaImages: "https://placeholder.com/meta-cot-bolt-six-inch.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CUTTING%20PLIER.png",
     sizes: ["6inch", "7inch", "8inch"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 18 },
       { currency: "INR", amount: 22 },
@@ -1953,9 +1234,10 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "101",
+    id: "59",
     name: "Rubber Washer",
-    images: "https://placeholder.com/rubber-washer-with-hole.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20WASHER.png",
     description:
       "Rubber washer for sealing and vibration dampening applications.",
     isOwnProduct: true,
@@ -1963,8 +1245,9 @@ export const products: ProductType[] = [
     inStock: true,
     metaDescriptions:
       "Durable rubber washers for water-tight sealing, vibration reduction, and blind plugs in plumbing and mechanical applications.",
-    metaImages: "https://placeholder.com/meta-rubber-washer-with-hole.jpg",
-    sizes: [],
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20WASHER.png",
+    sizes: ["none"],
     variants: ["With Hole", "Without Hole"],
     prices: [
       { currency: "INR", amount: 5 },
@@ -1972,24 +1255,349 @@ export const products: ProductType[] = [
     ],
   },
   {
-    id: "102",
+    id: "60",
     name: "Fisher Plug",
-    images: "https://placeholder.com/fisher-plug-s5.jpg",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FISHER%20PLUG.png",
     description: "Fisher plug for wall mounting applications.",
     isOwnProduct: true,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
       "Expanding fisher plugs with ribbed design for secure anchoring of fixtures and fittings in various wall materials.",
-    metaImages: "https://placeholder.com/meta-fisher-plug-s5.jpg",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FISHER%20PLUG.png",
     sizes: ["S5", "S6", "S8", "S10", "S12"],
-    variants: [],
+    variants: ["none"],
     prices: [
       { currency: "INR", amount: 2 },
       { currency: "INR", amount: 3 },
       { currency: "INR", amount: 4 },
       { currency: "INR", amount: 5 },
       { currency: "INR", amount: 6 },
+    ],
+  },
+  {
+    id: "61",
+    name: "Fiber Disc",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20(125mm)%20FIBER%20DISC.png",
+    description:
+      "High-quality fiber disc for grinding, sanding, and finishing applications.",
+    isOwnProduct: true,
+    category: "Abrasives",
+    inStock: true,
+    metaDescriptions:
+      "Durable fiber discs for professional grinding, sanding, and finishing applications in metal, wood, and composite materials.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20(125mm)%20FIBER%20DISC.png",
+    sizes: ["125mm", "100mm", "115mm", "180mm"],
+    variants: ["36 Grit", "60 Grit", "80 Grit", "120 Grit"],
+    prices: [
+      { currency: "INR", amount: 45 },
+      { currency: "INR", amount: 40 },
+      { currency: "INR", amount: 42 },
+      { currency: "INR", amount: 38 },
+    ],
+  },
+  {
+    id: "62",
+    name: "Allen Key Set",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ALLENKEY%20SET.png",
+    description:
+      "Comprehensive set of Allen keys for hex socket screws and bolts.",
+    isOwnProduct: true,
+    category: "Hand Tools",
+    inStock: true,
+    metaDescriptions:
+      "Professional-grade Allen key set with multiple sizes for precision work in furniture assembly, bicycle maintenance, and general repair applications.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ALLENKEY%20SET.png",
+    sizes: ["9-piece", "10-piece", "12-piece"],
+    variants: ["Metric", "Imperial"],
+    prices: [
+      { currency: "INR", amount: 180 },
+      { currency: "INR", amount: 220 },
+      { currency: "INR", amount: 280 },
+    ],
+  },
+  {
+    id: "63",
+    name: "GI Wire",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GI%20WIRE.png",
+    description:
+      "Galvanized iron wire for construction, fencing, and general binding applications.",
+    isOwnProduct: true,
+    category: "Construction Materials",
+    inStock: true,
+    metaDescriptions:
+      "Corrosion-resistant galvanized iron wire for construction, fencing, crafts, and general binding applications with excellent tensile strength.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GI%20WIRE.png",
+    sizes: ["18 Gauge", "20 Gauge", "22 Gauge"],
+    variants: ["1kg Roll", "2kg Roll", "5kg Roll"],
+    prices: [
+      { currency: "INR", amount: 120 },
+      { currency: "INR", amount: 230 },
+      { currency: "INR", amount: 550 },
+    ],
+  },
+  {
+    id: "64",
+    name: "Green Coated PVC Wire",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GREEN%20COATED%20PVC%20WIRE.png",
+    description: "PVC coated wire for garden, fencing, and craft applications.",
+    isOwnProduct: true,
+    category: "Garden & Outdoor",
+    inStock: true,
+    metaDescriptions:
+      "Weather-resistant green PVC coated wire for garden supports, plant ties, fencing, and craft projects with enhanced durability.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GREEN%20COATED%20PVC%20WIRE.png",
+    sizes: ["0.8mm", "1.0mm", "1.2mm"],
+    variants: ["1kg Roll", "2kg Roll", "5kg Roll"],
+    prices: [
+      { currency: "INR", amount: 150 },
+      { currency: "INR", amount: 290 },
+      { currency: "INR", amount: 680 },
+    ],
+  },
+  {
+    id: "67",
+    name: "PVC Pad",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PVC%20PAD%205.png",
+    description: "PVC protective pads for furniture and floor protection.",
+    isOwnProduct: true,
+    category: "Home Improvement",
+    inStock: true,
+    metaDescriptions:
+      "Durable PVC protective pads for furniture legs and sensitive surfaces to prevent scratches and reduce noise on floors.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PVC%20PAD%205.png",
+    sizes: ["Small", "Medium", "Large"],
+    variants: ["Round", "Square", "Rectangular"],
+    prices: [
+      { currency: "INR", amount: 25 },
+      { currency: "INR", amount: 35 },
+      { currency: "INR", amount: 45 },
+    ],
+  },
+  {
+    id: "68",
+    name: "Stainless Steel Polishing Wheel",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/STAINLESS%20STEEL%20POLISHING%20WHEEL.png",
+    description:
+      "Specialized wheel for polishing stainless steel surfaces to a mirror finish.",
+    isOwnProduct: true,
+    category: "Abrasives",
+    inStock: true,
+    metaDescriptions:
+      "Professional-grade stainless steel polishing wheel for achieving mirror finishes on metal surfaces in fabrication and restoration projects.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/STAINLESS%20STEEL%20POLISHING%20WHEEL.png",
+    sizes: ['4"', '5"', '6"', '7"'],
+    variants: ["Soft", "Medium", "Hard"],
+    prices: [
+      { currency: "INR", amount: 220 },
+      { currency: "INR", amount: 280 },
+      { currency: "INR", amount: 350 },
+      { currency: "INR", amount: 420 },
+    ],
+  },
+  {
+    id: "69",
+    name: "Wood Sledge Hammer",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WOOD%20SLEDGE%20HAMMER.png",
+    description:
+      "Heavy-duty sledge hammer with wooden handle for demolition and construction.",
+    isOwnProduct: true,
+    category: "Hand Tools",
+    inStock: true,
+    metaDescriptions:
+      "Robust wood-handled sledge hammer for demolition, driving stakes, and heavy construction applications with balanced weight distribution.",
+    metaImages: "altraders/product_images/WOOD SLEDGE HAMMER.png",
+    sizes: ["2lb", "4lb", "6lb", "8lb", "10lb"],
+    variants: ["none"],
+    prices: [
+      { currency: "INR", amount: 320 },
+      { currency: "INR", amount: 450 },
+      { currency: "INR", amount: 580 },
+      { currency: "INR", amount: 720 },
+      { currency: "INR", amount: 850 },
+    ],
+  },
+  {
+    id: "70",
+    name: "Concrete Cutting Blade",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/concret%20cutting%20blade.png",
+    description:
+      "Diamond blade designed for cutting concrete, masonry, and stone materials.",
+    isOwnProduct: true,
+    category: "Cutting Tools",
+    inStock: true,
+    metaDescriptions:
+      "Professional diamond-tipped concrete cutting blade for clean, precise cuts in concrete, masonry, stone, and other hard construction materials.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/concret%20cutting%20blade.png",
+    sizes: ['4"', '5"', '7"', '9"', '14"'],
+    variants: ["Segmented", "Continuous Rim"],
+    prices: [
+      { currency: "INR", amount: 350 },
+      { currency: "INR", amount: 450 },
+      { currency: "INR", amount: 650 },
+      { currency: "INR", amount: 950 },
+      { currency: "INR", amount: 1450 },
+    ],
+  },
+  {
+    id: "71",
+    name: "Diamond Cut Marble Blade",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/dioment%20cut%20marble%20blade.png",
+    description:
+      "Specialized diamond blade for cutting marble, granite, and other decorative stones.",
+    isOwnProduct: true,
+    category: "Cutting Tools",
+    inStock: true,
+    metaDescriptions:
+      "Precision diamond-tipped marble cutting blade designed for smooth, chip-free cuts in marble, granite, and other decorative stone materials.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/dioment%20cut%20marble%20blade.png",
+    sizes: ['4"', '5"', '7"', '9"', '14"'],
+    variants: ["Super Thin", "Standard"],
+    prices: [
+      { currency: "INR", amount: 380 },
+      { currency: "INR", amount: 480 },
+      { currency: "INR", amount: 680 },
+      { currency: "INR", amount: 980 },
+      { currency: "INR", amount: 1580 },
+    ],
+  },
+  {
+    id: "72",
+    name: "Rim Blade",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/rim%20blade.png",
+    description:
+      "Continuous rim blade for precise cutting of tiles, porcelain, and ceramic.",
+    isOwnProduct: true,
+    category: "Cutting Tools",
+    inStock: true,
+    metaDescriptions:
+      "Smooth continuous rim blade for precision cutting of ceramic tiles, porcelain, and delicate materials with minimal chipping.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/rim%20blade.png",
+    sizes: ['4"', '5"', '7"', '9"'],
+    variants: ["none"],
+    prices: [
+      { currency: "INR", amount: 320 },
+      { currency: "INR", amount: 420 },
+      { currency: "INR", amount: 620 },
+      { currency: "INR", amount: 920 },
+    ],
+  },
+  {
+    id: "73",
+    name: "Turbo Tile Cutter",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/turbo%20tile%20cutter.png",
+    description:
+      "Turbo-style diamond blade for fast cutting of tiles, ceramic, and stone.",
+    isOwnProduct: true,
+    category: "Cutting Tools",
+    inStock: true,
+    metaDescriptions:
+      "High-speed turbo tile cutter with diamond-tipped segments for rapid, clean cutting of tiles, ceramics, and natural stone materials.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/turbo%20tile%20cutter.png",
+    sizes: ['4"', '5"', '7"', '9"'],
+    variants: ["none"],
+    prices: [
+      { currency: "INR", amount: 340 },
+      { currency: "INR", amount: 440 },
+      { currency: "INR", amount: 640 },
+      { currency: "INR", amount: 940 },
+    ],
+  },
+  {
+    id: "74",
+    name: "Miscellaneous Hardware",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/pngegg (11).png",
+    description:
+      "Assorted hardware items for various construction and repair applications.",
+    isOwnProduct: true,
+    category: "Hardware",
+    inStock: true,
+    metaDescriptions:
+      "Quality hardware components for construction, repair, and DIY projects with reliable performance and durability.",
+    metaImages: "altraders/product_images/pngegg (11).png",
+    sizes: ["none"],
+    variants: ["Clamps", "Brackets", "Hinges", "Hooks", "Latches"],
+    prices: [
+      { currency: "INR", amount: 45 },
+      { currency: "INR", amount: 60 },
+      { currency: "INR", amount: 75 },
+      { currency: "INR", amount: 35 },
+      { currency: "INR", amount: 50 },
+    ],
+  },
+  {
+    id: "75",
+    name: "TCT Saw Blade",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Untitled-2.png",
+    description:
+      "Premium tungsten carbide tipped circular saw blade for precise cutting in wood, plastic, and soft metals.",
+    isOwnProduct: true,
+    category: "Cutting Tools",
+    inStock: true,
+    metaDescriptions:
+      "Professional-grade TCT circular saw blades with precision-ground teeth for clean, accurate cuts in various materials including wood, laminate, and non-ferrous metals.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Untitled-2.png",
+    sizes: ["185mm", "210mm", "235mm", "250mm"],
+    variants: ["24T", "40T", "60T", "80T"],
+    prices: [
+      { currency: "INR", amount: 650 },
+      { currency: "INR", amount: 780 },
+      { currency: "INR", amount: 950 },
+      { currency: "INR", amount: 1100 },
+    ],
+  },
+  {
+    id: "76",
+    name: "Wood Sledge Hammer",
+    images:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WOOD%20SLEDGE%20HAMMER.png",
+    description:
+      "Heavy-duty wooden sledge hammer with durable hardwood handle and solid steel head for construction and demolition tasks.",
+    isOwnProduct: true,
+    category: "Hand Tools",
+    inStock: true,
+    metaDescriptions:
+      "Professional-grade wooden sledge hammers with ergonomic hardwood handles and balanced steel heads for maximum impact force in construction, demolition, and landscaping applications.",
+    metaImages:
+      "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WOOD%20SLEDGE%20HAMMER.png",
+    sizes: ["2kg", "3kg", "4kg", "5kg"],
+    variants: [
+      "Standard Handle",
+      "Fiberglass Handle",
+      "Anti-Vibration Handle",
+      "Extended Length",
+    ],
+    prices: [
+      { currency: "INR", amount: 850 },
+      { currency: "INR", amount: 1200 },
+      { currency: "INR", amount: 1450 },
+      { currency: "INR", amount: 1600 },
     ],
   },
 ];

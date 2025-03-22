@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: ProductIdPageProps) {
   const { id } = await params;
   const product = products.find((product) => product.id === id);
   return {
-    title: product?.name + " | MSE" || "Product not found",
+    title: product?.name + " | AL Traders" || "Product not found",
     description: product?.metaDescriptions,
   };
 }
@@ -41,7 +41,7 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
         <div className=" flex items-center justify-center py-8 px-3 rounded-2xl bg-gradient-to-br from-amber-100 to-red-100">
           <Image
             priority
-            src={"https://prd.place/400?id=45"}
+            src={product.images}
             alt={`Product image`}
             width={250}
             height={300}

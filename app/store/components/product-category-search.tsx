@@ -17,16 +17,14 @@ import { products } from "@/static/product";
 
 export default function ProductCategorySelect() {
   const { setProducts } = useStore();
-  const productCategories = ["ALL PRODUCTS", ...rawProductCategories];
+  const productCategories = ["All products", ...rawProductCategories];
 
   const handleProductsCategoryChange = (value: string) => {
     if (value === "ALL PRODUCTS") {
       setProducts(products);
       return;
     }
-    const currProds = products.filter(
-      (p) => p.category.toUpperCase() === value
-    );
+    const currProds = products.filter((p) => p.category === value);
     setProducts(currProds);
   };
 

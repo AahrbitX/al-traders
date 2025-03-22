@@ -1,11 +1,11 @@
-import ProductCard from "@/components/custom/product-card";
-import { products } from "@/static/product";
 import React from "react";
+import { products } from "@/static/product";
+import ProductCard from "@/components/custom/product-card";
 
 function BrandProductsSection() {
   return (
     <div className="container my-8">
-      <h2>Our Brand&apos;s Products</h2>
+      <h2 className="mb-8 text-4xl">Our Brand&apos;s Products</h2>
       <div className="flex flex-wrap gap-6 justify-center">
         {products
           .filter((i) => i.isOwnProduct)

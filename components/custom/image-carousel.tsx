@@ -49,7 +49,7 @@ export default function ImageCarousel({
         <div
           key={item.id}
           className={
-            "absolute left-[50%] top-[20%] z-10 h-[200px] w-[150px] animate-fadeIn rounded-xl bg-gray-500"
+            "absolute left-[50%] top-[20%] z-10 h-[200px] w-[150px] animate-fadeIn rounded-xl bg-amber-300"
           }
           style={{
             backgroundImage: `url(${item.image})`,

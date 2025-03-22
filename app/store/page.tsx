@@ -2,6 +2,13 @@ import React from "react";
 import StoreHeroSection from "./components/Hero";
 import StoreProductsSection from "./products";
 import ContactsSection from "../components/Contact";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Store | AL traders",
+  description:
+    "Shop for top-quality hand tools from Bulls Store. Discover durable manual tools, machine tool accessories, and brass hardware designed for precision and reliability. Shop now for the best in performance and durability!",
+};
 
 function StorePage() {
   return (
