@@ -1,7 +1,7 @@
 import React from "react";
 import { notFound } from "next/navigation";
 
-import { products } from "@/static/product";
+import { products } from "@/data/product";
 import ProductSizeButtons from "../components/product-size-button";
 import ContactsSection from "@/app/components/Contact";
 import Image from "next/image";
@@ -38,7 +38,7 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
   return (
     <>
       <div className="mt-8 h-max grid md:grid-cols-[0.7fr_1fr] md:grid-rows-1 grid-rows-2 gap-x-6 gap-y-4 pt-12 container px-2">
-        <div className=" flex items-center justify-center py-8 px-3 rounded-2xl bg-gradient-to-br from-amber-100 to-red-100">
+        <div className=" flex items-center justify-center py-8 px-3 rounded-2xl bg-gradient-to-br from-amber-300 to-red-300">
           <Image
             priority
             src={product.images}

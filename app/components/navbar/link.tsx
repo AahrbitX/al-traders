@@ -5,7 +5,7 @@ function NavLink({ title, href }: { title: string; href: string }) {
     <Link
       key={title}
       href={href}
-      className="font-medium transition-colors hover:text-primary hover:opacity-[0.9]"
+      className="font-medium transition-colors hover:text-secondary hover:opacity-[0.9] hover:underline underline-offset-2 "
     >
       {title}
     </Link>

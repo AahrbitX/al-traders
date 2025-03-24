@@ -1,5 +1,5 @@
 import React from "react";
-import { products as rawProducts } from "@/static/product";
+import { products as rawProducts } from "@/data/product";
 import ProductCard from "@/components/custom/product-card";
 import {
   Carousel,
@@ -7,7 +7,7 @@ import {
   CarouselIndicator,
   CarouselItem,
 } from "@/components/custom/carousel";
-import { ProductType } from "@/static/types/product";
+import { ProductType } from "@/data/types/product";
 
 function ProductCarousel({
   isSameType = true,

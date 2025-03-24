@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import { Trash } from "lucide-react";
 
-import { products } from "@/static/product";
+import { products } from "@/data/product";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useStore } from "@/store/useStore";

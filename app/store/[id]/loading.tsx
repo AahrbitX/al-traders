@@ -2,7 +2,7 @@ import React from "react";
 
 function ProductLoadingPage() {
   return (
-    <section className="mt-24 test-section min-h-screen">
+    <section className="mt-24 flex items-center justify-center min-h-screen">
       ProductLoadingPage
     </section>
   );

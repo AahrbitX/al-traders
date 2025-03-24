@@ -12,7 +12,12 @@ function FooterSection() {
                 AL Traders
               </span>
             </Link>
-            <p className="text-gray-400 mt-4">A Medium Scale Enterprise</p>
+            <p className="text-gray-400 text-sm mt-4 text-balance max-w-lg">
+              Buy premium hand tools in Tamil Nadu from Kanniyakumari&apos;s
+              most trusted retailer. Explore high-quality manual tools, machine
+              tool accessories, and brass hardware at the best prices. Limited
+              stock—Shop now!
+            </p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>

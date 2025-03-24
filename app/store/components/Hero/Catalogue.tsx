@@ -22,7 +22,7 @@ function Catalogue() {
   };
 
   return (
-    <div className="flex items-center gap-16">
+    <div className="flex items-center gap-6 md:gap-8 lg:gap-16">
       <div
         onClick={() =>
           handleDownload("AL Traders Catalogue", "/al_traders_catalogue.pdf")

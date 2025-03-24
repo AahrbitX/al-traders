@@ -35,7 +35,7 @@ function HeroSection() {
           </div>
         </div>
         <div className="row-start-1 flex items-center justify-center w-full h-full">
-          <HeaderImages img="al" height={500} width={500} />
+          <HeaderImages img="al" height={304} width={386} />
         </div>
         <div className="md:col-span-2 relative">
           <Illustrations />

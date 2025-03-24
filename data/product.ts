@@ -7,7 +7,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20(SR-988).png",
     description: "Fevicol SR adhesive for strong bonding.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -30,7 +30,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20(SH).png",
     description:
       "Specialized Fevicol formulas for specific bonding requirements.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -47,7 +47,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20BULBOND.png",
     description: "Fevicol Bulbond adhesive for specialized industrial bonding.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -68,7 +68,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20SILICONE.png",
     description:
       "Fevicol Silicone sealant for waterproof sealing applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -89,7 +89,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20WOOD%20FILL.png",
     description: "Fevicol Wood Fill for repairing wood surfaces.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -109,7 +109,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20FEVI%20KWIK.png",
     description: "Fevicol Fevi Kwik instant adhesive for quick bonding.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -126,7 +126,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20M-SEAL.png",
     description: "Fevicol M-Seal epoxy compound for sealing and repairs.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -147,7 +147,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20WD40.png",
     description: "Fevicol WD40 multi-purpose lubricant spray.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -167,7 +167,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20FLEX%20KWIK.png",
     description: "Fevicol Flex Kwik adhesive for flexible, quick bonding.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -184,7 +184,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ARALDITE%20STANDARD.png",
     description: "Araldite Standard two-component epoxy adhesive.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -209,7 +209,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ARALDITE%20KLEAR.png",
     description:
       "Araldite Klear transparent epoxy adhesive for various applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -234,7 +234,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/MASKING%20TAPE.png",
     description:
       "Masking tape for precision painting and sealing applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Adhesive Products",
     inStock: true,
     metaDescriptions:
@@ -453,7 +453,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPANNER.png",
     description: "Professional-grade spanners for fastening applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -476,7 +476,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCREW%20DRIVER.png",
     description: "Professional screwdrivers for fastening applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -502,7 +502,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/TESTER.png",
     description: "Electrical testers for checking voltage in circuits.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -522,7 +522,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CUTTING%20PLIER.png",
     description: "Cutting pliers for wire and cable cutting applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -543,7 +543,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/NOSE%20PLIER.png",
     description:
       "Long nose pliers for precision gripping and manipulation in tight spaces.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -564,7 +564,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WIRE%20STRIPER.png",
     description:
       "Precision wire stripper for clean removal of insulation from electrical wires.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -581,7 +581,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20HAMMER.png",
     description: "Pipe wrench for plumbing and pipe fitting applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -604,7 +604,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ADJUSTABLE%20WRENCHES.png",
     description: "Adjustable wrench for versatile fastening applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -628,7 +628,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CARPENTER%20PINCER.png",
     description:
       "Carpenter pincer for nail extraction and wood working applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -648,7 +648,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/TIN%20CUTTER.png",
     description: "Tin cutter for precision cutting of sheet metal.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -671,7 +671,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/AVAIATION%20SNIP.png",
     description:
       "10-inch aviation snip for precision cutting of sheet metal in various directions.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -688,7 +688,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20SLEDGE%20HAMMER.png",
     description: "Fiber handle sledge hammer for reduced vibration during use.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hammers",
     inStock: true,
     metaDescriptions:
@@ -711,7 +711,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CLAW%20HAMMER.png",
     description:
       "Claw hammer for precision nail driving and removal in carpentry work.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hammers",
     inStock: true,
     metaDescriptions:
@@ -732,7 +732,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20HAMMER.png",
     description: "Pipe hammer for plumbing and pipe fitting applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hammers",
     inStock: true,
     metaDescriptions:
@@ -753,7 +753,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20HAMMER.png",
     description:
       "Rubber hammer for non-marking impact in assembly and woodworking.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hammers",
     inStock: true,
     metaDescriptions:
@@ -774,7 +774,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HEXA%20BOLT.png",
     description: "Hexagonal bolt for general fastening applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -794,7 +794,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HAND%20SAW.png",
     description: "General purpose hand saw for wood cutting applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -811,7 +811,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HACKSAW.png",
     description: "Hacksaw for metal cutting applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -832,7 +832,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/POCKER.png",
     description: "Poker tool for fire management and maintenance.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -852,7 +852,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/JACK%20PLANNER.png",
     description: "Jack planner for woodworking and smoothing applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -873,7 +873,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CHISEL.png",
     description: "Wood chisel for woodworking and joinery applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -908,7 +908,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/OIL%20CAN.png",
     description: "Oil can for precision lubrication of tools and machinery.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -930,7 +930,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FLAT%20BIT%20SET.png",
     description:
       "Comprehensive set of flat drill bits for woodworking applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -948,7 +948,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCRABBER.png",
     description:
       "Scraper tool with handle for surface preparation and cleaning.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -969,7 +969,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPIRIT%20LEVEL.png",
     description:
       "Magnetic spirit level for accurate horizontal and vertical alignment.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -990,7 +990,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20WRENCHES.png",
     description: "Wooden plumb bob for vertical alignment applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -1010,7 +1010,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/trowel%20new.png",
     description: "Trowel for concrete and masonry finishing applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -1051,7 +1051,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HEXA%20NUT.png",
     description: "Hexagonal nut for securing bolts.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1085,7 +1085,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20WASHER.png",
     description:
       "Flat washer for use with bolts and screws to distribute load.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1112,7 +1112,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ANCHOR%20BOLT.png",
     description:
       "Anchor bolt for securing objects to concrete and masonry surfaces.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1134,7 +1134,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/EYE%20HOOK.png",
     description: "Eye hook for hanging objects and securing cables or ropes.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1157,7 +1157,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20ANCHOR%20BOLT.png",
     description:
       "Pipe anchor bolt for securing pipes to concrete and masonry surfaces.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1179,7 +1179,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/COACH%20SCREW.png",
     description:
       "Coach screw for securing wood to wood or wood to masonry applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1201,7 +1201,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PVC%20PAD%205.png",
     description:
       "Specialized rack bolt for securing shelving and racking systems.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1218,7 +1218,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CUTTING%20PLIER.png",
     description: "Cot bolt for furniture assembly and bed frame construction.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1240,7 +1240,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20WASHER.png",
     description:
       "Rubber washer for sealing and vibration dampening applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1260,7 +1260,7 @@ export const products: ProductType[] = [
     images:
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FISHER%20PLUG.png",
     description: "Fisher plug for wall mounting applications.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Fasteners",
     inStock: true,
     metaDescriptions:
@@ -1307,7 +1307,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ALLENKEY%20SET.png",
     description:
       "Comprehensive set of Allen keys for hex socket screws and bolts.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -1416,7 +1416,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WOOD%20SLEDGE%20HAMMER.png",
     description:
       "Heavy-duty sledge hammer with wooden handle for demolition and construction.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:
@@ -1579,7 +1579,7 @@ export const products: ProductType[] = [
       "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WOOD%20SLEDGE%20HAMMER.png",
     description:
       "Heavy-duty wooden sledge hammer with durable hardwood handle and solid steel head for construction and demolition tasks.",
-    isOwnProduct: true,
+    isOwnProduct: false,
     category: "Hand Tools",
     inStock: true,
     metaDescriptions:

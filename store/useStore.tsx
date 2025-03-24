@@ -1,8 +1,8 @@
 "use client";
 
 import { create } from "zustand";
-import { products as ProductsArray } from "@/static/product";
-import { ProductType } from "@/static/types/product";
+import { products as ProductsArray } from "@/data/product";
+import { ProductType } from "@/data/types/product";
 
 interface StoreState {
   filterText: string;

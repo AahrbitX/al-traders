@@ -1,5 +1,5 @@
 import React from "react";
-import { products } from "@/static/product";
+import { products } from "@/data/product";
 import ProductCard from "@/components/custom/product-card";
 
 function BrandProductsSection() {

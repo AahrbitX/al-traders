@@ -12,7 +12,7 @@ function Illustrations() {
     <div className="w-full h-[1450px] md:h-[1200px] lg:h-[600px] grid grid-rows-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 md:grid-rows-4 lg:grid-rows-2 *:bg-slate-300 *:rounded-2xl gap-4 *:shrink-0">
       <DataBox
         title="Cutting Blade"
-        link=""
+        link="/store?category=cutting-tools"
         id="grid-item-1"
         className="col-span-2 row-span-2 mx-8 order-1 md:col-span-1 md:mx-0 md:order-2 lg:order-3"
       >
@@ -23,8 +23,8 @@ function Illustrations() {
         />
       </DataBox>
       <DataBox
-        title="Cutting Blades"
-        link=""
+        title="Abrasive wheels"
+        link="/store?category=abrasive-wheels"
         id="grid-item-3"
         className="order-2 md:order-1"
       >
@@ -44,7 +44,7 @@ function Illustrations() {
       </DataBox>
       <DataBox
         title="Adhesives"
-        link=""
+        link="/store?category=adhesive-products"
         id="grid-item-4"
         className="order-4 overflow-hidden relative"
       >
@@ -56,16 +56,16 @@ function Illustrations() {
         />
       </DataBox>
       <DataBox
-        title="Screws"
-        link=""
+        title="Fasterers"
+        link="/store?category=fasteners"
         id="grid-item-5"
         className="order-5 overflow-hidden relative"
       >
-        <Image src="/illustration/img-screw.png" alt="Image Screw" fill />
+        <Image src="/illustration/img-fasteners.png" alt="Image Screw" fill />
       </DataBox>
       <DataBox
         title="Hand Tools"
-        link=""
+        link="/store?category=hand-tools"
         id="grid-item-6"
         className="col-span-2 mx-6 lg:mx-0  order-6 lg:order-7 lg:col-span-2 md:col-span-3  md:mx-52 lg:row-span-1"
       >
@@ -77,7 +77,7 @@ function Illustrations() {
       </DataBox>
       <DataBox
         title="Screws"
-        link=""
+        link="/store?category=hand-tools"
         id="grid-item-7"
         className="col-span-2 mx-6 lg:mx-0 order-7 lg:order-8 lg:col-span-2 md:col-span-3 md:mx-52 lg:row-span-1"
       >

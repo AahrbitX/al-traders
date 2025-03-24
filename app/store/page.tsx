@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Suspense } from "react";
 import StoreHeroSection from "./components/Hero";
 import StoreProductsSection from "./products";
 import ContactsSection from "../components/Contact";
 import { Metadata } from "next";
+import Loader from "@/components/custom/loader";
 
 export const metadata: Metadata = {
   title: "Store | AL traders",
@@ -12,11 +13,19 @@ export const metadata: Metadata = {
 
 function StorePage() {
   return (
-    <div className="mt-20 min-h-screen">
-      <StoreHeroSection />
-      <StoreProductsSection />
-      <ContactsSection />
-    </div>
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center">
+          <Loader />
+        </div>
+      }
+    >
+      <div className="mt-20 min-h-screen">
+        <StoreHeroSection />
+        <StoreProductsSection />
+        <ContactsSection />
+      </div>
+    </Suspense>
   );
 }
 

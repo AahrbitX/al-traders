@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ProductType } from "@/static/types/product";
+import { ProductType } from "@/data/types/product";
 
 interface ProductCardProps {
   product: ProductType;
@@ -11,10 +11,10 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   return (
     <Link href={`/store/${product.id}`} draggable="false">
-      <div className="product-card">
-        <div className="flex-grow p-4 rounded-md bg-gradient-to-br from-amber-100 to-red-100 relative w-full h-[200px] flex justify-center items-center">
+      <div className="product-card group">
+        <div className="flex-grow p-4 rounded-md bg-gradient-to-br from-amber-300 to-red-300 relative w-full h-[200px] flex justify-center items-center ">
           <Image
-            className="object-contain"
+            className="object-contain group-hover:scale-105 transition-transform duration-150"
             src={product.images}
             alt={product.name}
             width={250}

@@ -40,9 +40,9 @@ function ProductsSection() {
       <div className="flex lg:items-start items-center justify-center flex-col">
         <h2 className="text-start text-4xl">Our Products</h2>
         <p className="text-muted-foreground text-pretty text-center lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam
-          saepe necessitatibus a dignissimos sed, nihil sequi fugiat voluptates
-          at est, iste obcaecati!
+          We offer durable manual tools, machine tool accessories, and hardware
+          designed for precision and reliability. Explore our collection for
+          industrial and home use.
         </p>
         <Link
           className="mt-5 px-6 py-3 bg-primary text-black text-sm md:text-base rounded-lg font-medium inline-block relative"

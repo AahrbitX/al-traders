@@ -5,7 +5,7 @@ import FibonacciLines from "@/components/custom/fibonacci-lines";
 function ContactsSection() {
   return (
     <section id="contact" className="container my-16 relative">
-      <div className="relative rounded-xl bg-amber-200 min-h-80 bg-opacity-20 flex flex-col items-center text-center py-12 px-6 overflow-hidden">
+      <div className="relative rounded-xl bg-amber-300 min-h-80 bg-opacity-20 flex flex-col items-center text-center py-12 px-6 overflow-hidden">
         {/* Fibonacci Lines Positioned Absolutely */}
         <FibonacciLines className="absolute justify-end inset-0 pointer-events-none" />
 
