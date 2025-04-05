@@ -35,12 +35,12 @@ function Illustrations() {
         />
       </DataBox>
       <DataBox
-        title="Manholes"
-        link=""
+        title="Hammers"
+        link="/store?category=hammers&page=1"
         id="grid-item-2"
         className="order-3 lg:order-2 lg:mt-8"
       >
-        <Image src="/illustration/img-manhole.png" alt="Image Manhole" fill />
+        <Image src="/illustration/img-hammers.webp" alt="Image Manhole" fill />
       </DataBox>
       <DataBox
         title="Adhesives"
