@@ -61,28 +61,28 @@ function FooterSection() {
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/store?category=hammers&page=1"
                     className="hover:underline"
                   >
                     Hammers
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/store?category=cutting-tools&page=1"
                     className="hover:underline"
                   >
                     Cutting Tools
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/store?category=fasteners&page=1"
                     className="hover:underline"
                   >
                     Fasteners
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
