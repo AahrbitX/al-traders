@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import ImageCarousel from "@/components/custom/image-carousel";
+import { getRoute } from "@/lib/getRoute";
 
 function ProductsSection() {
   const items = [
@@ -46,7 +47,7 @@ function ProductsSection() {
         </p>
         <Link
           className="mt-5 px-6 py-3 bg-primary text-black text-sm md:text-base rounded-lg font-medium inline-block relative"
-          href="/store"
+          href={getRoute("/store")}
         >
           View All Products
         </Link>

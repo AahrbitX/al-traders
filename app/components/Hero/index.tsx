@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import HeaderImages from "./header-images";
 import { TextAnimate } from "@/components/custom/text-animate";
+import { getBrandRoute, getRoute } from "@/lib/getRoute";
 
 function HeroSection() {
   return (
@@ -27,10 +28,10 @@ function HeroSection() {
           </p>
           <div className="flex items-center justify-center md:justify-start gap-5 mt-8">
             <Button asChild className="">
-              <Link href="/about">About us</Link>
+              <Link href={getRoute("/about")}>About us</Link>
             </Button>
             <Button>
-              <Link href="/brand">Bulls Brand</Link>
+              <Link href={getBrandRoute()}>Bulls Brand</Link>
             </Button>
           </div>
         </div>

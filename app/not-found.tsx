@@ -2,6 +2,7 @@ import React from "react";
 import HeaderImages from "./components/Hero/header-images";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { getRoute } from "@/lib/getRoute";
 
 function NotFoundPage() {
   return (
@@ -14,10 +15,10 @@ function NotFoundPage() {
           </h1>
           <div className="flex items-center justify-center gap-4">
             <Button asChild>
-              <Link href={"/"}>Go Home</Link>
+              <Link href={getRoute("/")}>Go Home</Link>
             </Button>
             <Button asChild variant={"outline"}>
-              <Link href={"/store"}>Browse Products</Link>
+              <Link href={getRoute("/store")}>Browse Products</Link>
             </Button>
           </div>
         </div>

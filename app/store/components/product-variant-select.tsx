@@ -12,8 +12,6 @@ import {
 } from "@/components/ui/select";
 
 function ProductVariantSelect({
-  prices,
-  setPrice,
   variants,
 }: {
   prices: {
@@ -21,7 +19,6 @@ function ProductVariantSelect({
     amount: number;
   }[];
   variants: string[];
-  setPrice: React.Dispatch<React.SetStateAction<number>>;
 }) {
   const searchParams = useSearchParams();
 
@@ -36,12 +33,6 @@ function ProductVariantSelect({
 
   const handleValueChange = (color: string) => {
     // Find the index of the selected variant
-    const index = variants.indexOf(color);
-
-    // Update price based on the index
-    if (index !== -1 && prices[index]) {
-      setPrice(prices[index].amount);
-    }
 
     // Update the URL without triggering a new request
     const newQueryString = createQueryString("color", color);

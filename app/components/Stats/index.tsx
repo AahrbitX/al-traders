@@ -4,24 +4,24 @@ import React from "react";
 function StatsSection() {
   const stats = [
     {
-      data: 35,
-      suffix: "K",
-      title: "Customers",
-    },
-    {
       data: 100,
       suffix: "K+",
       title: "Sales",
     },
     {
-      data: 300,
-      suffix: "+",
-      title: "Employees",
+      data: 8,
+      suffix: "yr+",
+      title: "Experience",
     },
     {
       data: 30,
       suffix: "+",
       title: "Partners",
+    },
+    {
+      data: 100,
+      suffix: "+",
+      title: "Products",
     },
   ];
 

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import FibonacciLines from "@/components/custom/fibonacci-lines";
+import { getRoute } from "@/lib/getRoute";
 
 function ContactsSection() {
   return (
@@ -17,7 +18,7 @@ function ContactsSection() {
         </p>
         <Link
           className="mt-5 px-6 py-3 bg-primary text-black text-sm md:text-base rounded-lg font-medium inline-block relative"
-          href="/contact"
+          href={getRoute("/contact")}
         >
           Contact Us
         </Link>

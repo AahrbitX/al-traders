@@ -26,11 +26,18 @@ function AboutHeader() {
             alt="company discussion"
           />
           <p className=" text-base text-justify xl:text-xl text-muted-foreground mt-6">
-            Al Traders offers premium hand tools from China, built for
-            durability, accuracy, and reliability. From manual tools to machine
-            tool accessories and hardware, our products are designed to meet the
-            needs of both professionals and home users, ensuring top performance
-            in every task.
+            Al Traders is a trusted supplier specializing in high-quality hand
+            tools and accessories, carefully sourced from reputable
+            manufacturers. With a strong focus on durability, accuracy, and
+            performance, we cater to both professionals and DIY users who seek
+            reliability in every task.
+          </p>
+          <p className=" text-base text-justify xl:text-xl text-muted-foreground mt-2">
+            Beyond distribution, we add value through expert selection, ensuring
+            our product range meets diverse industry standards. Whether
+            it&apos;s manual tools, machine accessories, or general hardware,
+            customers trust us for consistency, support, and lasting
+            performance.
           </p>
         </div>
       </div>

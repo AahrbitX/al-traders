@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import ProductVariantSelect from "./product-variant-select";
 
 export default function ProductSizeButtons({
@@ -15,13 +15,11 @@ export default function ProductSizeButtons({
   }[];
   variants: string[];
 }) {
-  const [price, setPrice] = useState(prices[0].amount);
-
   return (
     <>
-      <p className="font-dmsans mb-6 text-4xl text-secondary font-medium">
+      {/* <p className="font-dmsans mb-6 text-4xl text-secondary font-medium">
         &#x20B9;{price}
-      </p>
+      </p> */}
       {sizes.length > 0 && (
         <div className="space-y-4 ">
           <div className="text-lg font-semibold inline-block">
@@ -39,11 +37,7 @@ export default function ProductSizeButtons({
       {variants.length > 1 && (
         <div className="flex items-center gap-4 mt-6">
           <h3 className="text-lg font-semibold">Select Variant</h3>
-          <ProductVariantSelect
-            setPrice={setPrice}
-            variants={variants}
-            prices={prices}
-          />
+          <ProductVariantSelect variants={variants} prices={prices} />
         </div>
       )}
     </>

@@ -1,3 +1,5 @@
+import { getBrandRoute, getRoute } from "@/lib/getRoute";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -7,7 +9,13 @@ function FooterSection() {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Link href="/" className="flex items-center">
+            <Link href={getRoute("/")} className="flex items-center gap-4 ">
+              <Image
+                src={"/al-traders.png"}
+                alt="Al Traders Image"
+                width={50}
+                height={50}
+              />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-primary">
                 AL Traders
               </span>
@@ -26,22 +34,22 @@ function FooterSection() {
               </h2>
               <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link href="/" className="hover:underline ">
+                  <Link href={getRoute("/")} className="hover:underline ">
                     Home
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href="/about" className="hover:underline">
+                  <Link href={getRoute("/about")} className="hover:underline">
                     About
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href="/brand" className="hover:underline">
+                  <Link href={getBrandRoute()} className="hover:underline">
                     Brand
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href="/store" className="hover:underline">
+                  <Link href={getRoute("/store")} className="hover:underline">
                     Store
                   </Link>
                 </li>
@@ -54,7 +62,7 @@ function FooterSection() {
               <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <Link
-                    href="/store?category=hand-tools&page=1"
+                    href={getRoute("/store?category=hand-tools&page=1")}
                     className="hover:underline"
                   >
                     Hand Tools
@@ -62,7 +70,7 @@ function FooterSection() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    href="/store?category=hammers&page=1"
+                    href={getRoute("/store?category=hammers&page=1")}
                     className="hover:underline"
                   >
                     Hammers
@@ -70,7 +78,7 @@ function FooterSection() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    href="/store?category=cutting-tools&page=1"
+                    href={getRoute("/store?category=cutting-tools&page=1")}
                     className="hover:underline"
                   >
                     Cutting Tools
@@ -78,7 +86,7 @@ function FooterSection() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    href="/store?category=fasteners&page=1"
+                    href={getRoute("/store?category=fasteners&page=1")}
                     className="hover:underline"
                   >
                     Fasteners
@@ -102,7 +110,7 @@ function FooterSection() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-400 sm:text-center dark:text-gray-400">
             © 2025{" "}
-            <Link href="/" className="hover:underline">
+            <Link href={getRoute()} className="hover:underline">
               AL Traders
             </Link>
             . All Rights Reserved.

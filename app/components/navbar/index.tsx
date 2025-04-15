@@ -16,13 +16,25 @@ import Logo from "@/components/custom/Logo";
 import { MenuIcon } from "lucide-react";
 import NavLink from "./link";
 import GetCatalogueBlock from "./featured-blocs";
+import { getRoute } from "@/lib/getRoute";
 
-const navItems = [
-  { title: "Home", href: "/" },
-  { title: "About", href: "/about" },
-  { title: "Brand", href: "/brand" },
-  { title: "Store", href: "/store" },
-];
+let navItems: { title: string; href: string }[] = [];
+
+if (process.env.NODE_ENV === "production") {
+  navItems = [
+    { title: "Home", href: "https://altrader.in/" },
+    { title: "About", href: "https://altrader.in/about" },
+    { title: "Brand", href: "https://bullsbrand.altrader.in" },
+    { title: "Store", href: "https://altrader.in/store" },
+  ];
+} else {
+  navItems = [
+    { title: "Home", href: "/" },
+    { title: "About", href: "/about" },
+    { title: "Brand", href: "/brand" },
+    { title: "Store", href: "/store" },
+  ];
+}
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -40,7 +52,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-4">
             <div className="hidden md:flex items-center space-x-3">
               <Button asChild>
-                <Link href="/contact">Contact</Link>
+                <Link href={getRoute("/contact")}>Contact</Link>
               </Button>
             </div>
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -80,7 +92,10 @@ export default function Navbar() {
                   </div>
                   <div className="flex flex-col justify-between space-y-4 pb-5">
                     <Button asChild>
-                      <Link href="/contact" onClick={() => setIsOpen(false)}>
+                      <Link
+                        href={getRoute("/contact")}
+                        onClick={() => setIsOpen(false)}
+                      >
                         Contact
                       </Link>
                     </Button>
