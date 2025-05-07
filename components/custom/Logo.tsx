@@ -15,7 +15,9 @@ const Logo: FC<LogoProps> = ({ logoText = "YourLogo", className }) => {
       className={`text-2xl font-bold flex items-center gap-4 ${className}`}
     >
       <Image
-        src={"/al-traders.png"}
+        src={
+          "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/general/al-traders.png"
+        }
         alt="Al Traders Image"
         width={50}
         height={50}
