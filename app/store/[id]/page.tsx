@@ -58,7 +58,6 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
           </div>
           <div className="">
             <ProductSizeButtons
-              prices={product.prices}
               sizes={product.sizes}
               variants={product.variants}
             />

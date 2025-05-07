@@ -22,10 +22,10 @@ let navItems: { title: string; href: string }[] = [];
 
 if (process.env.NODE_ENV === "production") {
   navItems = [
-    { title: "Home", href: "https://altrader.in/" },
-    { title: "About", href: "https://altrader.in/about" },
-    { title: "Brand", href: "https://bullsbrand.altrader.in" },
-    { title: "Store", href: "https://altrader.in/store" },
+    { title: "Home", href: "https://altraders.in/" },
+    { title: "About", href: "https://altraders.in/about" },
+    { title: "Brand", href: "https://bullsbrand.altraders.in" },
+    { title: "Store", href: "https://altraders.in/store" },
   ];
 } else {
   navItems = [

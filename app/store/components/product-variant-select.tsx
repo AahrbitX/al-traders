@@ -11,15 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-function ProductVariantSelect({
-  variants,
-}: {
-  prices: {
-    currency: string;
-    amount: number;
-  }[];
-  variants: string[];
-}) {
+function ProductVariantSelect({ variants }: { variants: string[] }) {
   const searchParams = useSearchParams();
 
   const createQueryString = useCallback(

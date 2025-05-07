@@ -1,7 +1,7 @@
 const BASE_URL =
-  process.env.NODE_ENV === "production" ? "https://altrader.in" : "";
+  process.env.NODE_ENV === "production" ? "https://altraders.in" : "";
 
-const BRAND_URL = "https://bullsbrand.altrader.in";
+const BRAND_URL = "https://bullsbrand.altraders.in";
 
 const BRAND_FALLBACK = process.env.NODE_ENV === "production" ? "" : "/brand";
 

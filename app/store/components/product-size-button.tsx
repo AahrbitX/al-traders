@@ -5,14 +5,9 @@ import ProductVariantSelect from "./product-variant-select";
 
 export default function ProductSizeButtons({
   sizes,
-  prices,
   variants,
 }: {
   sizes: string[];
-  prices: {
-    currency: string;
-    amount: number;
-  }[];
   variants: string[];
 }) {
   return (
@@ -37,7 +32,7 @@ export default function ProductSizeButtons({
       {variants.length > 1 && (
         <div className="flex items-center gap-4 mt-6">
           <h3 className="text-lg font-semibold">Select Variant</h3>
-          <ProductVariantSelect variants={variants} prices={prices} />
+          <ProductVariantSelect variants={variants} />
         </div>
       )}
     </>
