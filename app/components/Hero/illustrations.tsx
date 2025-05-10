@@ -11,7 +11,7 @@ function Illustrations() {
   return (
     <div className="w-full h-[1450px] md:h-[1200px] lg:h-[600px] grid grid-rows-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 md:grid-rows-4 lg:grid-rows-2 *:bg-slate-300 *:rounded-2xl gap-4 *:shrink-0">
       <DataBox
-        title="Cutting Blade"
+        title="Cutting Tools"
         link="/store?category=cutting-tools"
         id="grid-item-1"
         className="col-span-2 row-span-2 mx-8 order-1 md:col-span-1 md:mx-0 md:order-2 lg:order-3"
@@ -23,8 +23,8 @@ function Illustrations() {
         />
       </DataBox>
       <DataBox
-        title="Abrasive wheels"
-        link="/store?category=abrasive-wheels"
+        title="Abrasive Products"
+        link="/store?category=abrasive-products"
         id="grid-item-3"
         className="order-2 md:order-1"
       >
@@ -35,12 +35,16 @@ function Illustrations() {
         />
       </DataBox>
       <DataBox
-        title="Hammers"
-        link="/store?category=hammers&page=1"
+        title="Drilling Tools"
+        link="/store?category=drilling-tools&page=1"
         id="grid-item-2"
         className="order-3 lg:order-2 lg:mt-8"
       >
-        <Image src="/illustration/img-hammers.webp" alt="Image Manhole" fill />
+        <Image
+          src="/illustration/img-drillbits.png"
+          alt="Image Drill Bits"
+          fill
+        />
       </DataBox>
       <DataBox
         title="Adhesives"
