@@ -1475,8 +1475,3 @@ export const products: ProductType[] = [
     variants: ["Mild Steel", "Stainless Steel", "Cast Iron"],
   },
 ];
-
-const distinctCategories = Array.from(
-  new Set(products.map((product) => product.category))
-);
-console.log(distinctCategories);

@@ -5,13 +5,15 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <footer className="bg-slate-800  pt-5 mt-10">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <footer className="bg-slate-800  pt-5 mt-10 relative overflow-hidden">
+      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-20">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href={getRoute("/")} className="flex items-center gap-4 ">
               <Image
-                src={"/al-traders.png"}
+                src={
+                  "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/general/al-traders.png"
+                }
                 alt="Al Traders Image"
                 width={50}
                 height={50}
@@ -20,7 +22,7 @@ function FooterSection() {
                 AL Traders
               </span>
             </Link>
-            <p className="text-gray-400 text-sm mt-4 text-balance max-w-lg">
+            <p className="text-gray-400 text-sm mt-4 text-balance w-full max-w-md">
               Buy premium hand tools in Tamil Nadu from Kanniyakumari&apos;s
               most trusted retailer. Explore high-quality manual tools, machine
               tool accessories, and brass hardware at the best prices. Limited
