@@ -43,8 +43,10 @@ function ContactForm({ checkboxes }: { checkboxes: CheckboxesType }) {
           className="bg-white"
         />
       </div>
-      <Label>Which Product Are You Intrested in?</Label>
       <div className="grid grid-cols-2 gap-4 px-6 py-3">
+        <Label className="col-span-2">
+          Which Product Are You Intrested in?
+        </Label>
         {checkboxes.map((box) => (
           <div key={box.label} className="space-x-3 flex items-center">
             <Checkbox id={box.value} className="bg-white size-5 peer" />

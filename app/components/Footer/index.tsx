@@ -1,4 +1,4 @@
-import { getBrandRoute, getRoute } from "@/lib/getRoute";
+import { getRoute } from "@/lib/getRoute";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -46,13 +46,13 @@ function FooterSection() {
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href={getBrandRoute()} className="hover:underline">
-                    Brand
+                  <Link href={getRoute("/store")} className="hover:underline">
+                    Store
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link href={getRoute("/store")} className="hover:underline">
-                    Store
+                  <Link href="/sitemap.xml" className="hover:underline">
+                    Sitemap
                   </Link>
                 </li>
               </ul>
@@ -103,7 +103,7 @@ function FooterSection() {
               </h2>
               <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">763, M.S. Road, Vadasery, Nagercoil-1</li>
-                <li className="mb-4">661-Cape Road, Kottar, Nagerkoil-2</li>
+                <li className="mb-4">661-Cape Road, Kottar, Nagercoil-2</li>
               </ul>
             </div>
           </div>
@@ -119,7 +119,9 @@ function FooterSection() {
           </span>
           <div className="text-sm text-gray-400 sm:text-center dark:text-gray-400">
             Made by{" "}
-            <span className="text-emerald-400">♥ Lure Tech Solutions </span>
+            <a href="https://luretechsolutions.in" className="text-emerald-400">
+              ♥ Lure Tech Solutions{" "}
+            </a>
           </div>
         </div>
       </div>

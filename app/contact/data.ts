@@ -39,6 +39,6 @@ export const ContactInfo: ContactCardType[] = [
     title: "Nagercoil-2",
     Icon: LocateIcon,
     subtitle: "Visit our Office Mon - Fri , 09:00 AM to 05:00 PM",
-    info: [{ text: "661-Cape Road, Kottar, Nagerkoil-2" }],
+    info: [{ text: "661-Cape Road, Kottar, Nagercoil-2" }],
   },
 ];

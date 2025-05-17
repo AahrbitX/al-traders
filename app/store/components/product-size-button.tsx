@@ -20,10 +20,10 @@ export default function ProductSizeButtons({
           <div className="text-lg font-semibold inline-block">
             Sizes Available: &emsp;
           </div>
-          <span className="inline-flex items-center gap-4 border border-neutral-400 px-4 py-2 rounded-lg bg-gray-100">
+          <span className="inline-flex items-center gap-4 ">
             {sizes.map((s) => (
               <span className="text-base font-medium text-neutral-800" key={s}>
-                {s}
+                &#x2022; {s}
               </span>
             ))}
           </span>
