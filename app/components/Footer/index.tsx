@@ -50,11 +50,11 @@ function FooterSection() {
                     Store
                   </Link>
                 </li>
-                <li className="mb-4">
+                {/* <li className="mb-4">
                   <Link href="/sitemap.xml" className="hover:underline">
                     Sitemap
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
