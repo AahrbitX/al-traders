@@ -25,7 +25,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Specialized Fevicol formulas for unique bonding applications in various industries.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20(SH).png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["SH"]
     },
     {
@@ -39,7 +39,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Heavy-duty Fevicol Bulbond adhesive for demanding industrial projects.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20BULBOND.png",
       "sizes": ["500kg", "1kg"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "4",
@@ -51,7 +51,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "High-quality Fevicol Silicone sealant for various waterproof applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20SILICONE.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["White", "Clear", "Black"]
     },
     {
@@ -65,7 +65,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Quality Fevicol Wood Fill for wood surface repairs and filling.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20WOOD%20FILL.png",
       "sizes": ["20ml", "50ml"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "6",
@@ -78,7 +78,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Quick-bonding Fevicol Fevi Kwik for instant adhesion in various applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20FEVI%20KWIK.png",
       "sizes": ["500mg"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "7",
@@ -91,7 +91,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Waterproof epoxy putty Fevicol M-Seal for sealing and repairing applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20M-SEAL.png",
       "sizes": ["25gm", "40gm", "90gm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "8",
@@ -104,7 +104,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Versatile Fevicol WD40 lubricant spray for rust prevention and machinery maintenance.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20WD40.png",
       "sizes": ["32gm", "63.8gm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "9",
@@ -117,7 +117,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Flexible and quick-setting Fevicol Flex Kwik for versatile bonding applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FEVICOL%20FLEX%20KWIK.png",
       "sizes": ["20gm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "10",
@@ -130,7 +130,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional two-component Araldite Standard epoxy adhesive for durable bonds.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ARALDITE%20STANDARD.png",
       "sizes": ["13gm", "36gm", "90gm", "180gm", "270gm", "450gm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "11",
@@ -143,7 +143,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional transparent Araldite Klear epoxy adhesive for specialized bonding needs.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ARALDITE%20KLEAR.png",
       "sizes": ["10gm", "26gm", "90gm", "180gm", "270gm", "450gm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "12",
@@ -156,7 +156,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional masking tape for painting, sealing and DIY applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/MASKING%20TAPE.png",
       "sizes": ["1/2\"", "3/4\"", "1\"", "1-1/4\"", "1-1/2\"", "2\""],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "13",
@@ -168,7 +168,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional 4 inch (110mm) 2net abrasive wheel for precision metal grinding applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4-%20(110mm)%20%202net%20WHEEL.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Green", "Black", "Red"]
     },
     {
@@ -181,7 +181,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional 5 inch (125mm) 2net abrasive wheel for precision grinding on larger surfaces.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20-(125mm)%20%202net%20WHEEL.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Green", "Black"]
     },
     {
@@ -194,7 +194,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional 4\" x 6\" grinding wheel for surface preparation and finishing.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4x%206%20Grinding%20Wheel.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Green", "Black", "Red"]
     },
     {
@@ -207,7 +207,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional 5\" x 6\" grinding wheel for surface preparation on larger work areas.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5x%206%20Grinding%20Wheel.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Green", "Black"]
     },
     {
@@ -220,7 +220,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional 7 inch grinding wheel for precision grinding on large-scale projects.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/7%20GRINDING%20WHEEL.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Green", "Black"]
     },
     {
@@ -285,7 +285,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "High-quality spanners with hardened steel construction for durability and precise fit.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPANNER.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Double End", "Ring", "DOE Set", "Rings Set", "T-Spanner"]
     },
     {
@@ -299,7 +299,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Durable screwdrivers with ergonomic handles for comfortable and efficient use.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCREW%20DRIVER.png",
       "sizes": ["Mini", "3\"", "4\"", "6\"", "8\"", "10\"", "12\"", "Set"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "24",
@@ -325,7 +325,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional cutting pliers with hardened cutting edges for clean and efficient wire cutting.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CUTTING%20PLIER.png",
       "sizes": ["6\"", "8\""],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "26",
@@ -338,7 +338,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional long nose pliers with serrated jaws for enhanced grip in detailed work.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/NOSE%20PLIER.png",
       "sizes": ["6\"", "8\""],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "27",
@@ -350,8 +350,8 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional wire stripper with multiple gauges for efficient and damage-free insulation removal.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WIRE%20STRIPER.png",
-      "sizes": ["none"],
-      "variants": ["none"]
+      "sizes": [],
+      "variants": []
     },
     {
       "id": "28",
@@ -364,7 +364,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Durable pipe wrench with hardened teeth for secure grip on pipes and fittings.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20WRENCHES.png",
       "sizes": ["10inch", "12inch", "14inch", "18inch", "24inch"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "29",
@@ -377,7 +377,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Precision adjustable wrench with smooth jaw adjustment for various fastener sizes.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ADJUSTABLE%20WRENCHES.png",
       "sizes": ["6inch", "8inch", "10inch", "12inch", "14inch"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "30",
@@ -390,7 +390,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional carpenter pincer with hardened jaws for effective nail pulling and cutting.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/CARPENTER%20PINCER.png",
       "sizes": ["6inch", "8inch"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "31",
@@ -403,7 +403,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional tin cutter with compound action for clean cuts through sheet metal with minimal effort.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/TIN%20CUTTER.png",
       "sizes": ["8inch", "10inch", "12inch", "14inch"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "32",
@@ -416,7 +416,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional 10-inch aviation snip with color-coded handles for easy identification of cutting direction.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/AVAIATION%20SNIP.png",
       "sizes": ["10inch"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "33",
@@ -429,7 +429,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Ergonomic fiber handle sledge hammer with non-slip grip for comfortable and precise striking.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20SLEDGE%20HAMMER.png",
       "sizes": ["1Lb", "1.5Lb", "2Lb", "3Lb"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "34",
@@ -455,7 +455,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional pipe hammer with specialized head design for plumbing installations and pipe fitting work.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20HAMMER.png",
       "sizes": ["3/4Lb", "1Lb"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "36",
@@ -468,7 +468,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional rubber hammer with soft face for gentle striking on delicate surfaces without causing damage.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20HAMMER.png",
       "sizes": ["380Gm", "480Gm", "620Gm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "37",
@@ -493,8 +493,8 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional hand saw with precision-ground teeth for smooth, efficient cutting in various woodworking applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HAND%20SAW.png",
-      "sizes": ["none"],
-      "variants": ["none"]
+      "sizes": [],
+      "variants": []
     },
     {
       "id": "39",
@@ -519,7 +519,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Fire poker with heat-resistant design for safely managing fireplaces and wood stoves.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/POCKER.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Wood", "PVC"]
     },
     {
@@ -533,7 +533,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Professional jack planner with adjustable blade depth for versatile woodworking and carpentry applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/JACK%20PLANNER.png",
       "sizes": ["1 inch", "1 1/4 inch", "1 1/2 inch"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "42",
@@ -559,7 +559,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Precision oil can with controlled flow spout for accurate lubrication of tools, machinery, and mechanical components.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/OIL%20CAN.png",
       "sizes": ["1/4 litre", "1/2 litre", "3/4 litre"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "44",
@@ -571,8 +571,8 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional flat bit set with multiple sizes for versatile hole drilling in various woodworking and carpentry projects.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FLAT%20BIT%20SET.png",
-      "sizes": ["none"],
-      "variants": ["none"]
+      "sizes": [],
+      "variants": []
     },
     {
       "id": "45",
@@ -585,7 +585,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Ergonomic scraper with comfortable handle for efficient paint removal and surface preparation in renovation projects.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCRABBER.png",
       "sizes": ["3 inch", "4 inch"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "46",
@@ -610,7 +610,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Traditional wooden plumb bob with brass tip for accurate vertical alignment in construction and framing projects.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PLUMBOB.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Medium", "Large"]
     },
     {
@@ -636,8 +636,8 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Premium Hercules heavy-duty gloves with reinforced palm and knuckle protection for maximum safety in extreme working conditions.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/HERCULES%20GLOVES.png",
-      "sizes": ["none"],
-      "variants": ["none"]
+      "sizes": [],
+      "variants": []
     },
     {
       "id": "50",
@@ -676,7 +676,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Precision-engineered anchor bolts with expanding mechanism for reliable fastening in concrete and masonry applications requiring various load capacities.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ANCHOR%20BOLT.png",
       "sizes": ["6mm", "8mm", "10mm", "12mm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "53",
@@ -689,7 +689,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Versatile eye hooks with precision-formed eyes for secure hanging and attachment of cables, ropes, and fixtures in various applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/EYE%20HOOK.png",
       "sizes": ["6mm", "8mm", "10mm", "12mm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "54",
@@ -702,7 +702,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Specialized pipe anchor bolts with curved profile for secure mounting of pipes and conduits to concrete and masonry surfaces in various applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PIPE%20ANCHOR%20BOLT.png",
       "sizes": ["6mm", "8mm", "10mm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "55",
@@ -715,7 +715,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Versatile coach screws with hexagonal head and wood thread for secure fastening in timber construction and wooden structures.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/COACH%20SCREW.png",
       "sizes": ["6mm", "8mm", "10mm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "56",
@@ -727,8 +727,8 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Precision-engineered rack bolt with reinforced shank and specialized thread pattern for secure installation of shelving, racking systems, and heavy storage units.",
       "metaImages":"https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RACK%20BOLT.png",
-      "sizes": ["none"],
-      "variants": ["none"]
+      "sizes": [],
+      "variants": []
     },
     {
       "id": "57",
@@ -753,7 +753,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Durable rubber washers for water-tight sealing, vibration reduction, and blind plugs in plumbing and mechanical applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/RUBBER%20WASHER.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["With Hole", "Without Hole"]
     },
     {
@@ -793,7 +793,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Smooth continuous rim blade for precision cutting of ceramic tiles, porcelain, and delicate materials with minimal chipping.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/rim%20blade.png",
       "sizes": ["4\"", "5\"", "7\"", "9\""],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "62",
@@ -806,7 +806,7 @@ export const products: ProductType[] =
       "metaDescriptions": "High-speed turbo tile cutter with diamond-tipped segments for rapid, clean cutting of tiles, ceramics, and natural stone materials.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/turbo%20tile%20cutter.png",
       "sizes": ["4\"", "5\""],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "63",
@@ -884,7 +884,7 @@ export const products: ProductType[] =
       "metaDescriptions": "Heavy-duty nut shutter (patta bit) for efficient installation and removal of nuts and shutters in construction and industrial applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/NUT%20SHUTTER%20(PATTA%20BIT)-%20SB.png",
       "sizes": ["8mm", "10mm", "12mm", "14mm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "69",
@@ -905,11 +905,11 @@ export const products: ProductType[] =
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/STAR%20&%20MINUS%20BIT-%20SB.png",
       "description": "Professional-grade screwdriver bits for power tools and screwdrivers.",
       "isOwnProduct": true,
-      "category":"hand-tools",
+      "category":"drilling-tools",
       "inStock": true,
       "metaDescriptions": "Precision-engineered screwdriver bits for power tools and manual screwdrivers with hardened tips for durability and extended service life.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/STAR%20&%20MINUS%20BIT-%20SB.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["Star & Minus", "Star & Star", "Phillips", "Hex", "Torx"]
     },
     {
@@ -922,7 +922,7 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Premium welding rods for electric arc welding with consistent performance and strong weld joints in steel and metal fabrication applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WELDING%20ROD-%20SB.png",
-      "sizes": ["none"],
+      "sizes": [],
       "variants": ["10G", "12G", "14G", "16G"]
     },
     {
@@ -936,20 +936,20 @@ export const products: ProductType[] =
       "metaDescriptions": "Sharp wood drill bits designed for clean, accurate holes in all types of wood with reduced splintering and smooth finish.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WOOD%20BIT-%20SB.png",
       "sizes": ["3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "73",
-      "name": "Manhole Cover",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20%20MAN%20HOLE%20COVER-%20MCS.png",
+      "name": "GI Manhole Cover",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2014-100.png",
       "description": "Durable manhole covers for drainage and utility access points.",
       "isOwnProduct": true,
       "category": "construction-materials",
       "inStock": true,
       "metaDescriptions": "High-strength manhole covers for drainage systems, utility access points, and underground infrastructure with load-bearing capacity for pedestrian and vehicular traffic.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20%20MAN%20HOLE%20COVER-%20MCS.png",
-      "sizes": ["450mm", "600mm", "750mm", "900mm"],
-      "variants": ["Fiber", "GI (Galvanized Iron)"]
+      "sizes": [" 1 x 1", "1 1/4 x 1 1/4", "1 1/2 x 1 1/2", "2 x 2", "2 1/4 x 2 1/4","2 1/2 x 2 1/2", "3 x 3"],
+      "variants": []
     },
     {
       "id": "74",
@@ -962,18 +962,18 @@ export const products: ProductType[] =
       "metaDescriptions": "Corrosion-resistant galvanized iron roofing bolts with rubber washers for weather-tight installation of metal roofing sheets and panels.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GI%20ROOFING%20Bolt%20-%20MCS.png",
       "sizes": ["65mm", "75mm", "100mm", "125mm"],
-      "variants": ["none"]
+      "variants": []
     },
     {
       "id": "75",
       "name": "14\" Wheel",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/14%20inch%20wheel.jpg",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/20250802_192157.png",
       "description": "14 inch (110mm) 2net abrasive wheel for precision grinding.",
       "isOwnProduct": true,
       "category": "abrasive-products",
       "inStock": true,
       "metaDescriptions": "Professional 14 inch (110mm) 2net abrasive wheel for precision metal grinding applications.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/14%20inch%20wheel.jpg",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/20250802_192157.png",
       "sizes": ["14\" (110mm)"],
       "variants": ["Green", "Black", "Red"]
     },
@@ -993,53 +993,53 @@ export const products: ProductType[] =
     {
       "id": "79",
       "name": "Stainless Steel Polishing Wheel",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/product-jpeg-500x500.png",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/20250802_192245.png",
       "description": "Stainless Steel Polishing Wheel for polishing metal surfaces.",
       "isOwnProduct": true,
       "category": "abrasive-products",
       "inStock": true,
       "metaDescriptions": "Professional Stainless Steel Polishing Wheel for precision metal polishing applications.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/product-jpeg-500x500.png",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/20250802_192245.png",
       "sizes": ["80mm", "120mm"],
       "variants": ["white", "Red"]
     },
     {
       "id": "80",
       "name": "Concrete Blade",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%202-100.jpg",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/concret%20cutting%20blade%20n.png",
       "description": "Concrete Blade for cutting concrete and other hard materials.",
       "isOwnProduct": true,
       "category": "cutting-tools",
       "inStock": true,
       "metaDescriptions": "Professional Concrete Blade for precision cutting applications.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%202-100.jpg",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/concret%20cutting%20blade%20n.png",
       "sizes": ["4\"", "5\""],
       "variants": ["Concrete Blade"]
     },
     {
       "id": "81",
       "name": "Glasses",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2011-100.jpg",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_11-100-removebg-preview.png",
       "description": "Protective glasses for safety during cutting and grinding.",
       "isOwnProduct": true,
       "category": "safety-equipment",
       "inStock": true,
       "metaDescriptions": "Professional Protective Glasses for safety during cutting and grinding applications.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2011-100.jpg",
-      "sizes": ["none"],
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_11-100-removebg-preview.png",
+      "sizes": [],
       "variants": ["Shield Glasses", "Eye Glasses"]
     },
     {
       "id": "82",
       "name": "Try Square",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2012-100.jpg",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_12-100-removebg-preview.png",
       "description": "A tool used for marking and measuring right angles.",
       "isOwnProduct": true,
       "category": "measuring-tools",
       "inStock": true,
       "metaDescriptions": "Durable Try Square designed for precise marking and measuring in woodworking and construction.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2012-100.jpg",
-      "sizes": ["none"],
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_12-100-removebg-preview.png",
+      "sizes": [],
       "variants": ["Try Square"]
     },
     {
@@ -1052,8 +1052,8 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Precision-engineered Allenkey Set for efficient fastening and loosening of hexagonal socket screws and bolts.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/ALLENKEY%20SET.png",
-      "sizes": ["none"],
-      "variants": ["none"]
+      "sizes": [],
+      "variants": []
     },
     {
       "id": "84",
@@ -1065,45 +1065,45 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Durable PVC Pad -5 \" designed for use with various tools and equipment.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PVC%20PAD%205.png",
-      "sizes": ["none"],
-      "variants": ["none"]
+      "sizes": [],
+      "variants": []
     },
     {
       "id": "85",
       "name": "WIRES",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2017-100.jpg",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_17-100-removebg-preview.png",
       "description": "A high-quality PVC pad designed for use with various tools and equipment.",
       "isOwnProduct": true,
       "category":"wires",
       "inStock": true,
       "metaDescriptions": "Durable PVC Pad -6 \" designed for use with various tools and equipment.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2017-100.jpg",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_17-100-removebg-preview.png",
       "sizes": ["4 mtr", "6 mtr", "8 mtr", "10 mtr", "12 mtr", "14 mtr", "16 mtr", "18 mtr", "20 mtr", "22 mtr", "24 mtr"],
       "variants": ["GI WIRE"]
     },
     {
       "id": "86",
       "name": "Green Coated PVC Wire",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GREEN%20COATED%20PVC%20WIRE.png",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_18-100-removebg-preview.png",
       "description": "A high-quality green coated PVC wire designed for use in various applications.",
       "isOwnProduct": true,
       "category":"wires",
       "inStock": true,
       "metaDescriptions": "Durable Green Coated PVC Wire designed for use in various applications.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GREEN%20COATED%20PVC%20WIRE.png",
-      "sizes": ["none"],
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_18-100-removebg-preview.png",
+      "sizes": [],
       "variants": ["Green Coated PVC Wire"]
     },
     {
       "id": "87",
       "name": "Screws",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2016-100.jpg",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_16-100-removebg-preview.png",
       "description": "A high-quality screw designed for use with various tools and equipment.",
       "isOwnProduct": true,
       "category": "screws",
       "inStock": true,
       "metaDescriptions": "Durable Screws designed for use with various tools and equipment.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2016-100.jpg",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_16-100-removebg-preview.png",
       "sizes": ["Star & Minus", "Minus-Half Thread", "MS-Star"],
       "variants": ["Dry Wall Black", "Dry Wall Nickel", "MS Coated","SS Screws", "SS Wood Screws", "SS Self Tapping Screws", "SS Self Drilling Screws", "SS Machine Screws", "MS Wood Screws", "MS Self Tapping Screws", "MS Self Drilling Screws", "DRy Wall Antique", "Self Drilling Screws","Chip Board Screws", "MS Chip Board Screws", "SS Chip Board Screws"]
     },
@@ -1118,32 +1118,19 @@ export const products: ProductType[] =
       "metaDescriptions": "Durable Bits designed for use with various tools and equipment.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/MASONARY%20BIT-%20SB.png",
       "sizes": ["6mm","8mm", "10mm"],
-      "variants": ["none"]
-    },
-    {
-      "id": "89",
-      "name": "Screw Bits",
-      "images":"https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/screw%20bits.jpg",
-      "description": "A high-quality screw bit designed for use with various tools and equipment.",
-      "isOwnProduct": true,
-      "category": "drilling-tools",
-      "inStock": true,
-      "metaDescriptions": "Durable Screw Bits designed for use with various tools and equipment.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/screw%20bits.jpg",
-      "sizes": ["4\"", "5\"", "7\"", "9\""],
-      "variants": ["Star", "Minus"]
+      "variants": []
     },
         {
       "id": "90",
       "name": "Fiber Manhole Cover",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2015-100%20(1).jpg",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_15-100__2_-removebg-preview.png",
       "description": "Durable Fiber manhole covers for drainage and utility access points.",
       "isOwnProduct": true,
       "category": "construction-materials",
       "inStock": true,
       "metaDescriptions": "High-strength Fiber manhole covers for drainage systems, utility access points, and underground infrastructure with load-bearing capacity for pedestrian and vehicular traffic.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2015-100%20(1).jpg",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard_15-100__2_-removebg-preview.png",
       "sizes": ["1 1/4 x 1 1/4 - 3 x 3"],
-      "variants": ["none"]
+      "variants": []
     }
 ]
