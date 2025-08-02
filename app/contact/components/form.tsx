@@ -1,68 +1,140 @@
-// import { Checkbox } from "@/components/ui/checkbox";
+"use client";
+import React, { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import React from "react";
-
-// type CheckboxesType = Array<{ label: string; value: string }>;
-
 
 function ContactForm() {
+  const [form, setForm] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    phone: "",
+    location: "",
+    message: "",
+  });
+
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    try {
+      const formData = new FormData();
+      Object.entries(form).forEach(([key, value]) => {
+        if (key === "phone") {
+          formData.append(key, `'${value}'`); // Add single quote to phone
+        } else {
+          formData.append(key, value);
+        }
+      });
+
+      await fetch(
+        "https://script.google.com/macros/s/AKfycbwTqZW2HtFH1S1QyLkIxAKuNelBj0o9uJDdcRXudks6nVLOLtcTjuN3FMsIYC0ZtQMbpg/exec",
+        {
+          method: "POST",
+          body: formData,
+          mode: "no-cors", // no readable response
+        }
+      );
+
+      setSubmitted(true);
+      setForm({
+        firstname: "",
+        lastname: "",
+        email: "",
+        phone: "",
+        location: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Submission failed", error);
+      alert("Submission failed.");
+    }
+  };
+
   return (
-    <form className="space-y-6">
+    <form className="space-y-6" onSubmit={handleSubmit}>
       <div className="grid grid-cols-2 gap-3 pt-4">
         <div>
           <Label>First Name *</Label>
-          <Input placeholder="John" type="text" name="firstname" />
+          <Input
+            placeholder="John"
+            type="text"
+            name="firstname"
+            value={form.firstname}
+            onChange={handleChange}
+            required
+          />
         </div>
         <div>
           <Label>Last Name</Label>
-          <Input placeholder="Doe" type="text" name="firstname" />
+          <Input
+            placeholder="Doe"
+            type="text"
+            name="lastname"
+            value={form.lastname}
+            onChange={handleChange}
+          />
         </div>
       </div>
       <div>
         <Label>Email Address *</Label>
-        <Input placeholder="johndoe@gmail.com" type="email" name="email" />
+        <Input
+          placeholder="johndoe@gmail.com"
+          type="email"
+          name="email"
+          value={form.email}
+          onChange={handleChange}
+          required
+        />
       </div>
       <div>
         <Label>Phone *</Label>
-        <Input placeholder="+91 9876543219" type="phone" name="phone" />
+        <Input
+          placeholder="+91 9876543219"
+          type="text"
+          name="phone"
+          value={form.phone}
+          onChange={handleChange}
+          required
+        />
       </div>
-      {/* <div>
-        <Label>Team Size</Label>
-        <Input placeholder="10-50" name="size" />
-      </div> */}
       <div>
         <Label>Location</Label>
-        <Input placeholder="India" name="location" />
+        <Input
+          placeholder="India"
+          name="location"
+          value={form.location}
+          onChange={handleChange}
+        />
       </div>
       <div>
         <Label>Message *</Label>
         <Textarea
           placeholder="Submit your reviews here..."
           name="message"
+          value={form.message}
+          onChange={handleChange}
           className="bg-white"
+          required
         />
       </div>
-      {/* <div className="grid grid-cols-2 gap-4 px-6 py-3">
-        <Label className="col-span-2">
-          Which Product Are You Intrested in?
-        </Label>
-        {checkboxes.map((box) => (
-          <div key={box.label} className="space-x-3 flex items-center">
-            <Checkbox id={box.value} className="bg-white size-5 peer" />
-            <label
-              htmlFor={box.value}
-              className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 capitalize"
-            >
-              {box.value}
-            </label>
-          </div>
-        ))}
-      </div> */}
-      <button className="bg-primary w-full px-3 rounded-full py-3  hover:bg-primary/90 shadow-md transition-colors duration-200 cursor-pointer text-black">
+      <button
+        type="submit"
+        className="bg-primary w-full px-3 rounded-full py-3 hover:bg-primary/90 shadow-md transition-colors duration-200 cursor-pointer text-black"
+      >
         Submit
       </button>
+      {submitted && (
+        <p className="text-green-600 text-center font-medium pt-2">
+          Form submitted successfully!
+        </p>
+      )}
     </form>
   );
 }

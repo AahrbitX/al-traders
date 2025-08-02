@@ -84,7 +84,7 @@ function Illustrations() {
         />
       </DataBox>
       <DataBox
-        title="fasteners"
+        title="Fasteners"
         link="/store?category=fasteners"
         id="grid-item-7"
         className="col-span-2 mx-6 lg:mx-0 order-7 lg:order-8 lg:col-span-2 md:col-span-3 md:mx-52 lg:row-span-1"
