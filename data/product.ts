@@ -225,7 +225,7 @@ export const products: ProductType[] =
     },
     {
       "id": "18",
-      "name": "4-100mm FLAP DISC",
+      "name": "4\" (100mm) FLAP DISC",
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/4(100mm)%20FLAP%20DISC.png",
       "description": "Flap disc for material removal and finishing on metal surfaces.",
       "isOwnProduct": true,
@@ -238,7 +238,7 @@ export const products: ProductType[] =
     },
     {
       "id": "19",
-      "name": "5 - 120mm VELCRO DISC",
+      "name": "5\" (120mm) VELCRO DISC",
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/5%20(120mm)%20VELCRO%20DISC.png",
       "description": "Velcro backing disc for sanding with quick replacement.",
       "isOwnProduct": true,
@@ -593,7 +593,7 @@ export const products: ProductType[] =
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPIRIT%20LEVEL.png",
       "description": "Magnetic spirit level for accurate horizontal and vertical alignment.",
       "isOwnProduct": false,
-      "category": "hand-tools",
+      "category": "measuring-tools",
       "inStock": true,
       "metaDescriptions": "Professional spirit level with magnetic edge for hands-free operation on metal surfaces in construction applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SPIRIT%20LEVEL.png",
@@ -623,8 +623,8 @@ export const products: ProductType[] =
       "inStock": true,
       "metaDescriptions": "Professional trowel for creating fine texture on concrete and plaster surfaces in construction work.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/trowel%20new.png",
-      "sizes": ["none"],
-      "variants": ["Wood", "Yellow", "Dekok", "Orange", "Blue"]
+      "sizes": ["6 x 110 - 6 x 160", "8 x 110 - 8 x 160", "10 x 110 - 10 x 160", "12 x 110 - 12 x 160","13 x 110 - 13 x 160", "14 x 160", "16 x 160", "5 x 110 - 5 x 160", "7 x 110 - 7 x 160"],
+      "variants": ["Wood Trowel", "Yellow Trowel", "Dekok Trowel", "Orange Trowel", "Blue Trowel"]
     },
     {
       "id": "49",
@@ -809,19 +809,6 @@ export const products: ProductType[] =
       "variants": ["none"]
     },
     {
-      "id": "62",
-      "name": "Bucket Trowel",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/pngegg%20(11).png",
-      "description": "Assorted hardware items for various construction and repair applications.",
-      "isOwnProduct": true,
-      "category": "hand-tools",
-      "inStock": true,
-      "metaDescriptions": "Quality hardware components for construction, repair, and DIY projects with reliable performance and durability.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/pngegg%20(11).png",
-      "sizes": ["none"],
-      "variants": ["Clamps", "Brackets", "Hinges", "Hooks", "Latches"]
-    },
-    {
       "id": "63",
       "name": "TCT Saw Blade",
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Untitled-2.png",
@@ -862,11 +849,11 @@ export const products: ProductType[] =
     },
     {
       "id": "66",
-      "name": "Machine Screws (SANJAY)",
+      "name": "Machine Screws, Nuts & Washers (Sanjay)",
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/MACHINE%20SCREW%20-%20SB.png",
       "description": "Precision machine screws for mechanical and equipment assembly applications.",
       "isOwnProduct": true,
-      "category": "Fasteners",
+      "category": "screws",
       "inStock": true,
       "metaDescriptions": "High-quality machine screws with metric threading for precision assembly of machinery, equipment, and electronic components.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/MACHINE%20SCREW%20-%20SB.png",
@@ -905,7 +892,7 @@ export const products: ProductType[] =
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PATTA%20SCREW-%20SB.png",
       "description": "Specialized screws for securing metal sheets and panels in construction.",
       "isOwnProduct": true,
-      "category": "fasteners",
+      "category": "screws",
       "inStock": true,
       "metaDescriptions": "Durable patta screws designed for secure fastening of metal sheets, panels, and shutters in construction and industrial applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/PATTA%20SCREW-%20SB.png",
@@ -976,19 +963,6 @@ export const products: ProductType[] =
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GI%20ROOFING%20Bolt%20-%20MCS.png",
       "sizes": ["65mm", "75mm", "100mm", "125mm"],
       "variants": ["none"]
-    },
-    {
-      "id": "74",
-      "name": "Assorted Screws",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCREWS%20-%20MCS.png",
-      "description": "Comprehensive assortment of screws for various construction and DIY applications.",
-      "isOwnProduct": true,
-      "category": "fasteners",
-      "inStock": true,
-      "metaDescriptions": "High-quality screws in various sizes, materials, and head types for general construction, woodworking, and assembly applications.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCREWS%20-%20MCS.png",
-      "sizes": ["#6", "#8", "#10", "#12"],
-      "variants": ["Wood Screws", "Sheet Metal Screws", "Self-Tapping Screws", "Drywall Screws"]
     },
     {
       "id": "75",
@@ -1100,7 +1074,7 @@ export const products: ProductType[] =
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2017-100.jpg",
       "description": "A high-quality PVC pad designed for use with various tools and equipment.",
       "isOwnProduct": true,
-      "category":"hand-tools",
+      "category":"wires",
       "inStock": true,
       "metaDescriptions": "Durable PVC Pad -6 \" designed for use with various tools and equipment.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2017-100.jpg",
@@ -1113,7 +1087,7 @@ export const products: ProductType[] =
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GREEN%20COATED%20PVC%20WIRE.png",
       "description": "A high-quality green coated PVC wire designed for use in various applications.",
       "isOwnProduct": true,
-      "category":"hand-tools",
+      "category":"wires",
       "inStock": true,
       "metaDescriptions": "Durable Green Coated PVC Wire designed for use in various applications.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/GREEN%20COATED%20PVC%20WIRE.png",
@@ -1123,13 +1097,13 @@ export const products: ProductType[] =
     {
       "id": "87",
       "name": "Screws",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCREWS%20-%20MCS.png",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2016-100.jpg",
       "description": "A high-quality screw designed for use with various tools and equipment.",
       "isOwnProduct": true,
-      "category": "Screws",
+      "category": "screws",
       "inStock": true,
       "metaDescriptions": "Durable Screws designed for use with various tools and equipment.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/SCREWS%20-%20MCS.png",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2016-100.jpg",
       "sizes": ["Star & Minus", "Minus-Half Thread", "MS-Star"],
       "variants": ["Dry Wall Black", "Dry Wall Nickel", "MS Coated","SS Screws", "SS Wood Screws", "SS Self Tapping Screws", "SS Self Drilling Screws", "SS Machine Screws", "MS Wood Screws", "MS Self Tapping Screws", "MS Self Drilling Screws", "DRy Wall Antique", "Self Drilling Screws","Chip Board Screws", "MS Chip Board Screws", "SS Chip Board Screws"]
     },
@@ -1148,19 +1122,6 @@ export const products: ProductType[] =
     },
     {
       "id": "89",
-      "name": "Trowels",
-      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/trowel%20new.png",
-      "description": "A high-quality trowel designed for use with various tools and equipment.",
-      "isOwnProduct": true,
-      "category": "hand-tools",
-      "inStock": true,
-      "metaDescriptions": "Durable Trowels designed for use with various tools and equipment.",
-      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/trowel%20new.png",
-      "sizes": ["6 x 110 - 6 x 160", "8 x 110 - 8 x 160", "10 x 110 - 10 x 160", "12 x 110 - 12 x 160","13 x 110 - 13 x 160", "14 x 160", "16 x 160", "5 x 110 - 5 x 160", "7 x 110 - 7 x 160"],
-      "variants": ["Wood Trowel", "Yellow Trowel", "Dekok Trowel", "Orange Trowel", "Blue Trowel"]
-    },
-    {
-      "id": "90",
       "name": "Screw Bits",
       "images":"https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/screw%20bits.jpg",
       "description": "A high-quality screw bit designed for use with various tools and equipment.",
@@ -1172,4 +1133,17 @@ export const products: ProductType[] =
       "sizes": ["4\"", "5\"", "7\"", "9\""],
       "variants": ["Star", "Minus"]
     },
+        {
+      "id": "90",
+      "name": "Fiber Manhole Cover",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2015-100%20(1).jpg",
+      "description": "Durable Fiber manhole covers for drainage and utility access points.",
+      "isOwnProduct": true,
+      "category": "construction-materials",
+      "inStock": true,
+      "metaDescriptions": "High-strength Fiber manhole covers for drainage systems, utility access points, and underground infrastructure with load-bearing capacity for pedestrian and vehicular traffic.",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/Artboard%2015-100%20(1).jpg",
+      "sizes": ["1 1/4 x 1 1/4 - 3 x 3"],
+      "variants": ["none"]
+    }
 ]

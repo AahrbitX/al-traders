@@ -7,9 +7,11 @@ export const productCategories = [
   { label: "Fasteners", slug: "fasteners" },
   { label: "Safety Equipment", slug: "safety-equipment" },
   { label: "Blades", slug: "cutting-tools" },
-  // { label: "Hardware", slug: "hardware" },
+  { label: "Wires", slug: "wires" },
+  { label: "Screws", slug: "screws" },
+  { label: "Measuring Tools", slug: "measuring-tools" },
   { label: "Drilling Tools", slug: "drilling-tools" },
-  { label: "Electrical Components", slug: "electrical-components" },
+  { label: "Motor Covers", slug: "electrical-components" },
   { label: "Welding Supplies", slug: "welding-supplies" },
   { label: "Manhole Covers", slug: "construction-materials" },
 ];

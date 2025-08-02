@@ -950,16 +950,16 @@
     },
     {
       "id": "73",
-      "name": "Manhole Cover",
+      "name": "GI Manhole Cover",
       "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20%20MAN%20HOLE%20COVER-%20MCS.png",
-      "description": "Durable manhole covers for drainage and utility access points.",
+      "description": "Durable GI manhole covers for drainage and utility access points.",
       "isOwnProduct": true,
       "category": "construction-materials",
       "inStock": true,
-      "metaDescriptions": "High-strength manhole covers for drainage systems, utility access points, and underground infrastructure with load-bearing capacity for pedestrian and vehicular traffic.",
+      "metaDescriptions": "High-strength GI manhole covers for drainage systems, utility access points, and underground infrastructure with load-bearing capacity for pedestrian and vehicular traffic.",
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20%20MAN%20HOLE%20COVER-%20MCS.png",
-      "sizes": ["450mm", "600mm", "750mm", "900mm"],
-      "variants": ["Fiber", "GI (Galvanized Iron)"]
+      "sizes": [" 1 x 1", "1 1/4 x 1 1/4", "1 1/2 x 1 1/2", "2 x 2", "2 1/4 x 2 1/4","2 1/2 x 2 1/2", "3 x 3"],
+      "variants": ["none"]
     },
     {
       "id": "74",
@@ -1194,5 +1194,18 @@
       "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/WOOD%20BIT-%20SB.png",
       "sizes": ["none"],
       "variants": ["MS Bit"]
+    },
+    {
+      "id": "92",
+      "name": "Fiber Manhole Cover",
+      "images": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20%20MAN%20HOLE%20COVER-%20MCS.png",
+      "description": "Durable Fiber manhole covers for drainage and utility access points.",
+      "isOwnProduct": true,
+      "category": "construction-materials",
+      "inStock": true,
+      "metaDescriptions": "High-strength Fiber manhole covers for drainage systems, utility access points, and underground infrastructure with load-bearing capacity for pedestrian and vehicular traffic.",
+      "metaImages": "https://mfudfrexjmgxidwugcyw.supabase.co/storage/v1/object/public/medium_scale_enterprises/altraders/product_images/FIBER%20%20MAN%20HOLE%20COVER-%20MCS.png",
+      "sizes": ["1 1/4 x 1 1/4 - 3 x 3"],
+      "variants": ["none"]
     }
 ]
