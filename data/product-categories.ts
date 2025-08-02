@@ -6,10 +6,10 @@ export const productCategories = [
   { label: "Hammers", slug: "hammers" },
   { label: "Fasteners", slug: "fasteners" },
   { label: "Safety Equipment", slug: "safety-equipment" },
-  // { label: "Cutting Tools", slug: "cutting-tools" },
+  { label: "Blades", slug: "cutting-tools" },
   // { label: "Hardware", slug: "hardware" },
   { label: "Drilling Tools", slug: "drilling-tools" },
   { label: "Electrical Components", slug: "electrical-components" },
   { label: "Welding Supplies", slug: "welding-supplies" },
-  { label: "Construction Materials", slug: "construction-materials" },
+  { label: "Manhole Covers", slug: "construction-materials" },
 ];

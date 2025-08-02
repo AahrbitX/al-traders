@@ -58,7 +58,7 @@ async function ProductIdPage({ params }: ProductIdPageProps) {
           </div>
           <div className="">
             <ProductSizeButtons
-              sizes={product.sizes}
+              sizes={product.sizes.filter((s: string) => s !== "none")}
               variants={product.variants}
             />
           </div>

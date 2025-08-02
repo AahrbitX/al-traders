@@ -37,7 +37,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           </p>
           <div className="flex items-center justify-between">
             {/* <p className="font-bold text-3xl text-secondary">&#8377;{price}</p> */}
-            <Badge size={product.sizes.length} />
+            <Badge size={product.sizes.filter((s) => s !== "none").length} />
             <Badge color={product.variants.length} />
           </div>
         </div>
