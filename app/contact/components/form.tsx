@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
+
 function ContactForm() {
   const [form, setForm] = useState({
     firstname: "",
@@ -15,6 +16,7 @@ function ContactForm() {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -52,8 +54,8 @@ function ContactForm() {
         message: "",
       });
     } catch (error) {
-      console.error("Submission failed", error);
-      alert("Submission failed.");
+      console.error("Error submitting form:", error);
+      setError(true);
     }
   };
 
@@ -133,6 +135,11 @@ function ContactForm() {
       {submitted && (
         <p className="text-green-600 text-center font-medium pt-2">
           Form submitted successfully!
+        </p>
+      )}
+      {error && (
+        <p className="text-red-600 text-center font-medium pt-2">
+          Submission failed. Please try again.
         </p>
       )}
     </form>
