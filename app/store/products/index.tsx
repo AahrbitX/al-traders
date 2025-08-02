@@ -21,17 +21,28 @@ function StoreProductsSection() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const totalPages = Math.ceil(products.length / PRODUCTS_PER_PAGE);
+  // Get selected category from search params
+  const selectedCategory = searchParams.get("category");
+
+  // Filter products by category if selected
+  const filteredProducts = selectedCategory
+    ? products.filter((product) => product.category === selectedCategory)
+    : products;
+
+  const totalPages = Math.ceil(filteredProducts.length / PRODUCTS_PER_PAGE);
   const page = Number(searchParams.get("page")) || 1;
 
-  const paginatedProducts = products.slice(
+  const paginatedProducts = filteredProducts.slice(
     (page - 1) * PRODUCTS_PER_PAGE,
     page * PRODUCTS_PER_PAGE
   );
 
   const handlePageChange = (newPage: number) => {
     if (newPage < 1 || newPage > totalPages) return;
-    router.push(`?page=${newPage}`);
+    // Preserve category filter in query params
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("page", newPage.toString());
+    router.push(`?${params.toString()}`);
   };
 
   return (
