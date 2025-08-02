@@ -24,7 +24,7 @@ function Illustrations() {
       </DataBox>
       <DataBox
         title="Measuring Tools"
-        link="/store?category="
+        link="/store?category=measuring-tools&page=1"
         id="grid-item-3"
         className="order-2 md:order-1"
       >

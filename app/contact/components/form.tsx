@@ -1,12 +1,13 @@
-import { Checkbox } from "@/components/ui/checkbox";
+// import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import React from "react";
 
-type CheckboxesType = Array<{ label: string; value: string }>;
+// type CheckboxesType = Array<{ label: string; value: string }>;
 
-function ContactForm({ checkboxes }: { checkboxes: CheckboxesType }) {
+
+function ContactForm() {
   return (
     <form className="space-y-6">
       <div className="grid grid-cols-2 gap-3 pt-4">
@@ -27,10 +28,10 @@ function ContactForm({ checkboxes }: { checkboxes: CheckboxesType }) {
         <Label>Phone *</Label>
         <Input placeholder="+91 9876543219" type="phone" name="phone" />
       </div>
-      <div>
+      {/* <div>
         <Label>Team Size</Label>
         <Input placeholder="10-50" name="size" />
-      </div>
+      </div> */}
       <div>
         <Label>Location</Label>
         <Input placeholder="India" name="location" />
@@ -43,7 +44,7 @@ function ContactForm({ checkboxes }: { checkboxes: CheckboxesType }) {
           className="bg-white"
         />
       </div>
-      <div className="grid grid-cols-2 gap-4 px-6 py-3">
+      {/* <div className="grid grid-cols-2 gap-4 px-6 py-3">
         <Label className="col-span-2">
           Which Product Are You Intrested in?
         </Label>
@@ -58,7 +59,7 @@ function ContactForm({ checkboxes }: { checkboxes: CheckboxesType }) {
             </label>
           </div>
         ))}
-      </div>
+      </div> */}
       <button className="bg-primary w-full px-3 rounded-full py-3  hover:bg-primary/90 shadow-md transition-colors duration-200 cursor-pointer text-black">
         Submit
       </button>
