@@ -39,6 +39,7 @@ export const WhatsAppOverlay = (props: WhatsappInterface) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.3 }}
+            style={{ zIndex: 1000 }}
             className="fixed bottom-24 right-0 grid w-96 grid-rows-[100px,1fr] rounded-xl bg-white shadow-xl sm:right-8"
           >
             <div className="flex w-full items-center justify-evenly rounded-t-xl bg-emerald-500  text-white">
