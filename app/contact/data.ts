@@ -26,19 +26,19 @@ export const ContactInfo: ContactCardType[] = [
   {
     title: "Call us",
     Icon: PhoneCall,
-    subtitle: "Mon - Fri , 09:00 AM to 05:00 PM (IST)",
-    info: [{ text: "+91 9677776883" }, { text: "+91 8056414376" }],
+    subtitle: "Mon - Sun , 09:00 AM to 05:00 PM (IST)",
+    info: [{ text: "+91 9677776883" }, { text: "+91 8148194376" }],
   },
   {
     title: "Nagercoil-1",
     Icon: LocateIcon,
-    subtitle: "Visit our Office Mon - Fri , 09:00 AM to 05:00 PM",
+    subtitle: "Visit our Store Mon - Sun , 09:00 AM to 10:00 PM",
     info: [{ text: "763, M.S. Road, Vadasery, Nagercoil-1" }],
   },
   {
     title: "Nagercoil-2",
     Icon: LocateIcon,
-    subtitle: "Visit our Office Mon - Fri , 09:00 AM to 05:00 PM",
+    subtitle: "Visit our Store Mon - Sun , 09:00 AM to 10:00 PM",
     info: [{ text: "661-Cape Road, Kottar, Nagercoil-2" }],
   },
 ];
